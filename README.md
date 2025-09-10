@@ -8,7 +8,7 @@ This repository hosts the benchmark datasets of DMPKBench, a multi-modal benchma
 
 | Domain              | Resource         | MCQ     | Quality             |
 |---------------------|------------------|---------|---------------------|
-| Experiment Design   | ABT Test         | 1000   | Expert QC           |
+| Experiment Design   | ABT Test         | 200   | Expert QC           |
 |                     | DrugBench¹       | 701     | LLM QC              |
 | Result Interpretation | Public Case    | 100     | Expert QC           |
 | PK Modeling         | Public Case      | 100     | Expert QC           |
