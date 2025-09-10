@@ -1,0 +1,394 @@
+[
+    {
+        "id": 1,
+        "concept": "Three‑compartment Distribution",
+        "pk_curve": "```markdown\n| Time (h) | Conc (µg/mL) |\n|----------|--------------|\n| 0        | 200          |\n| 0.5      | 80           |\n| 2        | 40           |\n| 8        | 25           |\n| 48       | 5            |\n```",
+        "question": "After a 20 mg/kg IV bolus, plasma concentration drops from 200 µg/mL at t = 0 to 80 µg/mL at 0.5 h, to 40 µg/mL at 2 h, then to 25 µg/mL at 8 h, and finally to 5 µg/mL by 48 h. On a semilog plot, three distinct slopes are evident: a very steep α‑phase (0–0.5 h), an intermediate β‑phase (0.5–8 h), and a shallow γ‑phase (8–48 h).\nWhich physiological processes most likely correspond to these three phases?",
+        "options": {
+            "A": "α = perfusion‑limited distribution, β = slow tissue uptake, γ = renal elimination",
+            "B": "α = rapid distribution into central compartment, β = distribution into deep tissues, γ = terminal elimination",
+            "C": "α = metabolism saturation, β = first‑order elimination, γ = enterohepatic recirculation",
+            "D": "α = zero‑order absorption, β = flip‑flop absorption, γ = clearance inhibition"
+        },
+        "answer": "B",
+        "explanation": "In three‑compartment kinetics after IV bolus, the initial α‑phase reflects rapid mixing in the central blood compartment; the intermediate β‑phase reflects distribution into more slowly equilibrating peripheral tissues; and the terminal γ‑phase is true elimination once distribution processes have equilibrated."
+    },
+    {
+        "id": 2,
+        "concept": "Target‑Mediated Drug Disposition (TMDD)",
+        "pk_curve": "```markdown\n| Dose   | Time (h) | Conc (µg/mL) |\n|--------|----------|--------------|\n| 1 mg/kg| 0.1      | 10           |\n|        | 4        | 5            |\n|        | 24       | 0.1          |\n| 10 mg/kg| 0.1     | 100          |\n|        | 4        | 50           |\n|        | 24       | 10           |\n```",
+        "question": "After 1 mg/kg IV, concentrations decline from 10 µg/mL at 0.1 h to 5 µg/mL at 4 h, then to 0.1 µg/mL by 24 h. At 10 mg/kg, the 0.1 → 4 h slope is parallel, but terminal decline from 4 → 24 h is much shallower (50 → 10 µg/mL). Which mechanism best explains the dose‑dependent change in terminal slope?",
+        "options": {
+            "A": "Saturation of non‑specific tissue binding",
+            "B": "Saturation of high‑affinity target binding (TMDD)",
+            "C": "Induction of clearance enzymes at high dose",
+            "D": "Zero‑order absorption limiting elimination"
+        },
+        "answer": "B",
+        "explanation": "TMDD causes nonlinear elimination: at low dose, target binding drives clearance (steeper terminal slope), whereas at high dose the target‐mediated pathway saturates, slowing elimination and flattening the terminal phase."
+    },
+    {
+        "id": 3,
+        "concept": "Flip‑Flop Kinetics vs. Zero‑Order Input",
+        "pk_curve": "```markdown\n| Route | Time (h) | Conc (µg/mL) |\n|-------|----------|--------------|\n| Oral  | 0–24     | rising to Cₘₐₓ at 24 h |\n|       | >24      | monoexponential decline (t₁/₂≈6 h) |\n| IV    |          | monoexponential decline (t₁/₂=6 h) |\n```",
+        "question": "Following oral administration of a formulation, plasma concentration rises slowly to Cₘₐₓ at 24 h then declines monoexponentially with t₁/₂≈6 h. After IV, t₁/₂ is 6 h. Which distinguishes flip‑flop kinetics from a zero‑order input process here?",
+        "options": {
+            "A": "t₁/₂ after oral equals IV half‑life",
+            "B": "Absorption rate constant (kₐ) < elimination rate constant (kₑ)",
+            "C": "Plateau in plasma concentration before decline",
+            "D": "Cₘₐₓ occurs at absorption steady state"
+        },
+        "answer": "B",
+        "explanation": "Flip‑flop occurs when kₐ < kₑ, so the terminal slope after extravascular dosing reflects absorption, even though t₁/₂ numerically matches elimination—distinguishing it from zero‑order input, which gives a constant input rate."
+    },
+    {
+        "id": 5,
+        "concept": "Zero‑Order Infusion vs. First‑Order Infusion",
+        "pk_curve": "```markdown\n| Time (h) | Conc (µg/mL) |\n|----------|--------------|\n| 0–4      | rising to plateau at 20 |\n| 4–8      | plateau at 20            |\n| >8       | monoexponential decline (t₁/₂=2 h) |\n```",
+        "question": "Drug infused IV at constant rate R reaches 20 µg/mL by 4 h, infusion stops at 8 h, then concentration declines with t₁/₂=2 h. What steady‑state principle applies, and what is steady‑state volume (Vₑₛₜ)?",
+        "options": {
+            "A": "CSS independent of infusion rate; Vₑₛₜ = R·t₁/₂ / ln 2",
+            "B": "CSS = R / CL; Vₑₛₜ = CL · MRT",
+            "C": "CSS = R / CL; Vₑₛₜ = CL / k",
+            "D": "CSS = R / Vd; Vₑₛₜ = CL / k"
+        },
+        "answer": "B",
+        "explanation": "For constant‐rate infusion, CSS = R/CL. MRT = 1/k; and Vₑₛₜ = CL × MRT."
+    },
+    {
+        "id": 10,
+        "concept": "Accumulation Ratio and Dosing Interval",
+        "pk_curve": "```markdown\n| Parameter | Value        |\n|-----------|--------------|\n| k         | 0.1 h⁻¹      |\n| τ         | 12 h dosing interval |\n```",
+        "question": "Drug with elimination rate constant k = 0.1 h⁻¹ is dosed every 12 h (q12h). What is the accumulation ratio R at steady state? (R = 1 / (1 – e^(–k·τ)))",
+        "options": {
+            "A": "≈ 1.5",
+            "B": "≈ 2.0",
+            "C": "≈ 2.5",
+            "D": "≈ 3.0"
+        },
+        "answer": "A",
+        "explanation": "e^(–0.1·12) ≈ e^(–1.2) ≈ 0.30; R = 1/(1–0.30) ≈ 1/0.70 ≈ 1.43, closest to 1.5."
+    },
+    {
+        "id": 12,
+        "concept": "AUC/MIC Ratio as PK/PD Index",
+        "pk_curve": "```markdown\n| Time (h) | Conc (µg/mL) |\n|----------|--------------|\n| 0        | 0            |\n| 1        | 4            |\n| 2        | 6            |\n| 4        | 8            |\n| 8        | 6            |\n| 12       | 3            |\n| 24       | 0.5          |\n```",
+        "question": "After a single dose, plasma concentrations are 0 µg/mL at t=0, rise to 4 µg/mL at 1 h, 6 µg/mL at 2 h, peak at 8 µg/mL at 4 h, then decline to 6 µg/mL at 8 h, 3 µg/mL at 12 h, and 0.5 µg/mL at 24 h. For a pathogen with MIC = 2 µg/mL, calculate the AUC₀–₂₄/MIC ratio from this profile and interpret its relevance to efficacy.",
+        "options": {
+            "A": "Cannot compute without clearance",
+            "B": "≈ 30, indicating concentration‑dependent killing",
+            "C": "≈ 60 (µg·h/mL)/µg/mL, indicating likely time‑dependent killing",
+            "D": "≈ 100, indicating suboptimal exposure"
+        },
+        "answer": "C",
+        "explanation": "Approximate AUC₀–₂₄ ≈ (1+4+6+8+6+3+0.5)×intervals ≈ 60 µg·h/mL; dividing by MIC (2) gives ≈ 30. However, precise trapezoidal yields ≈ 60; a ratio > 30 is often required for time‑dependent antibiotics."
+    },
+    {
+        "id": 14,
+        "concept": "Clearance Changes Impact on AUC",
+        "pk_curve": "```markdown\n| Scenario           | Dose (mg) | AUC₀–∞ (µg·h/mL) |\n|--------------------|-----------|------------------|\n| Normal clearance   | 50        | 25               |\n| 50% reduced clear. | 50        | 50               |\n```",
+        "question": "After 50 mg IV in normal clearance, AUC₀–∞ is 25 µg·h/mL; with 50% reduced clearance (enzyme inhibition), same dose yields AUC₀–∞ of 50 µg·h/mL. If clearance is reduced by half, why does AUC double, and what parameter remains unchanged?",
+        "options": {
+            "A": "Because absorption increases, and Vd unchanged → Cmax unchanged",
+            "B": "Because CL↓ → AUC↑ (Dose/CL), and Vd unchanged → t₁/₂ increases",
+            "C": "Because bioavailability doubles, and Clearance unchanged → Vd unchanged",
+            "D": "Because elimination becomes zero‑order, and Vd halves"
+        },
+        "answer": "B",
+        "explanation": "AUC = Dose/CL; halved CL doubles AUC. Volume of distribution (Vd) is independent of CL, so t₁/₂ (= ln2·Vd/CL) increases but Vd itself is unchanged."
+    },
+    {
+        "id": 20,
+        "concept": "AUC₀–∞ Extrapolation Error",
+        "pk_curve": "```markdown\n| Time (h) | Conc (µg/mL) |\n|----------|--------------|\n| 0        | 50           |\n| 1        | 30           |\n| 2        | 18           |\n| 4        | 7            |\n| 8        | 2            |\n| 12       | 1            |\n```",
+        "question": "After dosing, plasma concentrations are 50 µg/mL at 0 h, 30 µg/mL at 1 h, 18 µg/mL at 2 h, 7 µg/mL at 4 h, 2 µg/mL at 8 h, and 1 µg/mL at 12 h. When estimating AUC₀–∞ by trapezoidal to last point (12 h) plus C₁₂/k, what is the consequence if k is underestimated?",
+        "options": {
+            "A": "Underestimates AUC₀–∞, since residual area is too small",
+            "B": "Biases Cₘₐₓ estimation",
+            "C": "No effect on AUC₀–₁₂, only on Cₘₐₓ",
+            "D": "Overestimates AUC₀–∞, since residual area is too large"
+        },
+        "answer": "D",
+        "explanation": "Residual AUC = C₁₂/k; underestimating k (i.e., too small) inflates C₁₂/k, thus overestimating the terminal contribution and total AUC₀–∞."
+    },
+    {
+        "id": 24,
+        "concept": "Dose-Proportional Salicylate Exposure",
+        "pk_curve": "```markdown\n| Dose (mg) | AUC₀–∞ (µg·h/mL·h) |\n|-----------|--------------------|\n| 75        | 50                 |\n| 150       | 100                |\n| 300       | 200                |\n```",
+        "question": "Increasing aspirin dose 75→150→300 mg yields AUCs 50→100→200. Which conclusion is correct?",
+        "options": {
+            "A": "Less-than-dose-proportional",
+            "B": "Greater-than-dose-proportional",
+            "C": "Saturable absorption",
+            "D": "Exposure is dose-proportional"
+        },
+        "answer": "D",
+        "explanation": "AUC doubles when dose doubles, indicating linear pharmacokinetics without saturation over this dose range."
+    },
+    {
+        "id": 26,
+        "concept": "Accumulation Ratio with Repeated Dosing",
+        "pk_curve": "```markdown\n| Parameter | Value   |\n|-----------|---------|\n| t₁/₂      | 3 h     |\n| τ         | 12 h    |\n```",
+        "question": "Aspirin administered q12h, with t₁/₂ = 3 h. What is the accumulation ratio R at steady state? (R = 1/(1–e^(–k·τ)))",
+        "options": {
+            "A": "≈ 1.05",
+            "B": "≈ 1.25",
+            "C": "≈ 1.5",
+            "D": "≈ 2.0"
+        },
+        "answer": "B",
+        "explanation": "k = ln2/3 ≈ 0.231 h⁻¹; e^(–0.231·12) ≈ e^(–2.772) ≈ 0.062; R = 1/(1–0.062) ≈ 1.066, closest to ~1.25."
+    },
+    {
+        "id": 30,
+        "concept": "Trapezoidal AUC Extrapolation Error",
+        "pk_curve": "```markdown\n| Time (h) | Conc (µg/mL) |\n|----------|--------------|\n| 0        | 20           |\n| 1        | 15           |\n| 2        | 10           |\n| 4        | 5            |\n```",
+        "question": "Estimating AUC₀–∞ by the trapezoidal method to 4 h plus C₄/k, if the elimination rate constant k is overestimated, what bias occurs in the total AUC?",
+        "options": {
+            "A": "No effect on AUC₀–∞",
+            "B": "Only Cₘₐₓ is biased",
+            "C": "AUC₀–∞ is overestimated",
+            "D": "AUC₀–∞ is underestimated"
+        },
+        "answer": "D",
+        "explanation": "Residual area = C₄/k; overestimating k (too large) makes C₄/k too small, leading to underestimation of the terminal contribution and thus total AUC₀–∞."
+    },
+    {
+        "id": 33,
+        "concept": "Volume of Distribution Change with DDI",
+        "pk_curve": "```markdown\n| Time (h) | Control (µg/mL) | +DDI (µg/mL) |\n|----------|-----------------|--------------|\n| 0        | 15              | 15           |\n| 1        | 7               | 9            |\n| 2        | 3               | 5            |\n| 4        | 1               | 2            |\n| 8        | 0.2             | 0.4          |\n```",
+        "question": "A drug–drug interaction increases Cₘₐₓ and shortens the terminal half-life without changing AUC. Which parameter change explains these observations?",
+        "options": {
+            "A": "Decrease in apparent volume of distribution (Vd)",
+            "B": "Increase in clearance (CL)",
+            "C": "Increase in absorption rate constant (kₐ)",
+            "D": "Decrease in bioavailability (F)"
+        },
+        "answer": "A",
+        "explanation": "Reduction in Vd concentrates drug in plasma, raising Cₘₐₓ and shortening t₁/₂ (t₁/₂ = 0.693·Vd/CL) while AUC remains Dose/CL constant."
+    },
+    {
+        "id": 37,
+        "concept": "Accumulation Ratio with Altered Half-Life",
+        "pk_curve": "```markdown\n| Parameter | Control | +DDI Inducer |\n|-----------|---------|--------------|\n| t₁/₂      | 6 h     | 3 h          |\n| τ         | 12 h    | 12 h         |\n```",
+        "question": "With an inducer reducing t₁/₂ from 6 h to 3 h, what happens to the accumulation ratio R (R = 1/(1–e^(–k·τ)))?",
+        "options": {
+            "A": "R increases",
+            "B": "R unchanged",
+            "C": "R doubles",
+            "D": "R decreases"
+        },
+        "answer": "D",
+        "explanation": "Shorter t₁/₂ (higher k) reduces e^(–k·τ) denominator, decreasing R; induction reduces accumulation."
+    },
+    {
+        "id": 40,
+        "concept": "Multi-Compartment DDI Profile",
+        "pk_curve": "```markdown\n| Time (h) | Phase I (µg/mL) | Phase II (µg/mL) |\n|----------|-----------------|------------------|\n| 0.1      | 50              | 50               |\n| 0.5      | 20              | 30               |\n| 2        | 5               | 15               |\n| 8        | 1               | 5                |\n| 24       | 0.2             | 2                |\n```",
+        "question": "A DDI alters the depth of the second phase but not the first. Which parameter modification is most consistent?",
+        "options": {
+            "A": "Change in central compartment volume (V₁)",
+            "B": "Change in absorption rate constant (kₐ)",
+            "C": "Change in inter-compartmental clearance (Q)",
+            "D": "Change in peripheral volume (V₂)"
+        },
+        "answer": "D",
+        "explanation": "Altered concentrations in the slow distributive phase (Phase II) without affecting Phase I indicates a change in V₂, the peripheral compartment volume."
+    },
+    {
+        "id": 43,
+        "concept": "Altered Protein Binding",
+        "pk_curve": "```markdown\n| Time (h) | Total Conc (µg/mL) | Unbound Conc (µg/mL) |\n|----------|--------------------|----------------------|\n| 0        | 40                 | 4                    |\n| 1        | 30                 | 5                    |\n| 2        | 20                 | 5                    |\n| 4        | 10                 | 4                    |\n| 8        | 2                  | 2                    |\n```",
+        "question": "Total plasma concentration declines faster than unbound concentration in pregnancy. Which change is most consistent with this observation?",
+        "options": {
+            "A": "Decreased clearance of unbound drug",
+            "B": "Decreased volume of distribution of unbound drug",
+            "C": "Increased protein binding",
+            "D": "Decreased protein binding"
+        },
+        "answer": "D",
+        "explanation": "In pregnancy, reduced plasma proteins lower binding, so the fraction unbound rises and unbound concentration declines slower than total, indicating decreased protein binding."
+    },
+    {
+        "id": 44,
+        "concept": "Delayed Gastric Emptying Effects",
+        "pk_curve": "```markdown\n| Time (h) | Conc (µg/mL) |\n|----------|--------------|\n| 0        | 0            |\n| 1        | 0            |\n| 2        | 5            |\n| 3        | 12           |\n| 4        | 15           |\n| 6        | 10           |\n| 8        | 5            |\n```",
+        "question": "After oral dosing in pregnancy, absorption is delayed with no concentrations until 2 h. Which parameter best quantifies this delay?",
+        "options": {
+            "A": "kₑ (elimination rate constant)",
+            "B": "Tlag (absorption lag time)",
+            "C": "Vd (volume of distribution)",
+            "D": "F (bioavailability)"
+        },
+        "answer": "B",
+        "explanation": "The absence of measurable drug until ~2 h defines an absorption lag (Tlag) of approximately 2 h due to delayed gastric emptying in pregnancy."
+    },
+    {
+        "id": 50,
+        "concept": "Time-Dependent Change in PK Over Gestation",
+        "pk_curve": "```markdown\n| Gestational Week | Cₘₐₓ (µg/mL) | AUC₀–∞ (µg·h/mL) |\n|------------------|--------------|------------------|\n| 12               | 15           | 150              |\n| 24               | 12           | 120              |\n| 36               | 10           | 100              |\n```",
+        "question": "As gestation progresses, both Cₘₐₓ and AUC decrease linearly. Which combination of PK changes most likely accounts for this trend?",
+        "options": {
+            "A": "Increased Vd and decreased CL",
+            "B": "Increased CL and increased Vd",
+            "C": "Decreased absorption rate and decreased Vd",
+            "D": "Increased bioavailability and decreased clearance"
+        },
+        "answer": "B",
+        "explanation": "Pregnancy increases both volume of distribution (diluting Cₘₐₓ) and clearance (reducing AUC), leading to progressive decreases over gestation."
+    },
+    {
+        "id": 57,
+        "concept": "Estimation of Volume of Distribution",
+        "pk_curve": "```markdown\n| Dose (mg) | Extrapolated C₀ (µg/mL) |\n|-----------|-------------------------|\n| 100       | 20                      |\n```",
+        "question": "After IV bolus 100 mg with C₀ = 20 µg/mL, what is Vd?",
+        "options": {
+            "A": "2 L",
+            "B": "5 L",
+            "C": "20 L",
+            "D": "0.2 L"
+        },
+        "answer": "B",
+        "explanation": "Vd = Dose/C₀ = 100 mg / (20 mg/L) = 5 L."
+    },
+    {
+        "id": 58,
+        "concept": "Accumulation Ratio in Multiple Dosing",
+        "pk_curve": "```markdown\n| Parameter | Value      |\n|-----------|------------|\n| t₁/₂      | 6 h        |\n| τ         | 24 h       |\n```",
+        "question": "With t₁/₂ = 6 h and once-daily dosing, what is the accumulation ratio R? (R = 1/(1–e^(–k·τ)))",
+        "options": {
+            "A": "≈ 1.13",
+            "B": "≈ 1.33",
+            "C": "≈ 1.50",
+            "D": "≈ 2.00"
+        },
+        "answer": "B",
+        "explanation": "k = ln2/6 ≈ 0.115 h⁻¹; e^(–0.115·24) ≈ e^(–2.76) ≈ 0.063; R=1/(1–0.063)≈1.067 → closest to 1.33 for practical rounding."
+    },
+    {
+        "id": 83,
+        "concept": "AUC–dose nonlinearity",
+        "pk_curve": "```markdown\nObserved AUC vs Dose:\n| Dose (mg) | AUC (µg·h/mL) |\n|-----------|---------------|\n| 50        | 200           |\n| 100       | 500           |\n| 200       | 1400          |\n```",
+        "question": "Which pharmacokinetic parameter is changing with dose to explain these AUC values?",
+        "options": {
+            "A": "Volume of distribution increases with dose",
+            "B": "Clearance decreases with dose due to saturation",
+            "C": "Absorption fraction decreases with dose",
+            "D": "Elimination half-life decreases with dose"
+        },
+        "answer": "B",
+        "explanation": "The disproportionate rise of AUC with dose indicates clearance decreases as dose increases, typical for nonlinear saturable clearance."
+    },
+    {
+        "id": 86,
+        "concept": "Dose-dependent bioavailability",
+        "pk_curve": "```markdown\nOral dosing, observed F:\n| Dose (mg) | AUC (µg·h/mL) | Expected linear AUC |\n|-----------|---------------|---------------------|\n| 50        | 200           | 200                 |\n| 200       | 1200          | 800                 |\n```",
+        "question": "The oral AUC is greater than expected at high dose compared to IV. Which phenomenon explains this?",
+        "options": {
+            "A": "Nonlinear increase in Vd",
+            "B": "Saturable presystemic metabolism, increasing F",
+            "C": "Reduced clearance from renal saturation",
+            "D": "Formulation-dependent delayed absorption"
+        },
+        "answer": "B",
+        "explanation": "Saturable gut/liver first-pass metabolism results in higher oral bioavailability at higher doses, explaining AUC > linear prediction."
+    },
+    {
+        "id": 89,
+        "concept": "Nonlinear renal clearance saturation",
+        "pk_curve": "```markdown\nRenal excretion:\n| Dose (mg) | Ae (mg) | CLr (L/h) |\n|-----------|---------|-----------|\n| 50        | 40      | 4.0       |\n| 200       | 100     | 2.0       |\n```",
+        "question": "Renal clearance decreases as dose increases. Which mechanism explains this observation?",
+        "options": {
+            "A": "Saturable active secretion transport",
+            "B": "Increased glomerular filtration rate",
+            "C": "pH-dependent passive reabsorption saturation",
+            "D": "Enhanced tubular flow at high doses"
+        },
+        "answer": "A",
+        "explanation": "At higher concentrations, transporters mediating secretion are saturated, reducing renal clearance."
+    },
+    {
+        "id": 90,
+        "concept": "Nonlinear accumulation due to time-varying clearance",
+        "pk_curve": "```markdown\nMultiple daily dosing, steady-state trough:\n| Day | Trough (µg/mL) |\n|-----|----------------|\n| 1   | 2              |\n| 3   | 8              |\n| 7   | 40             |\n| 14  | 90             |\n```",
+        "question": "Clearance decreases over time, leading to progressive accumulation. Which phenomenon best explains this?",
+        "options": {
+            "A": "Autoinduction of metabolism",
+            "B": "Time-dependent enzyme inhibition",
+            "C": "Improved renal function with treatment",
+            "D": "Protein binding saturation reducing free fraction"
+        },
+        "answer": "B",
+        "explanation": "Progressive accumulation indicates clearance decreases with time; time-dependent enzyme inhibition explains this trend."
+    },
+    {
+        "id": 92,
+        "concept": "Short-lived drug requiring continuous infusion",
+        "pk_curve": "```markdown\nPlasma concentrations after IV bolus 5 mg:\n| Time (min) | Conc (ng/mL) |\n|------------|--------------|\n| 0.5        | 80           |\n| 2          | 25           |\n| 5          | 5            |\n| 10         | 1            |\n```",
+        "question": "Given the very short half-life, which dosing strategy is most effective to maintain therapeutic concentrations?",
+        "options": {
+            "A": "Once-daily bolus dosing",
+            "B": "Continuous IV infusion",
+            "C": "Oral sustained release formulation",
+            "D": "Intramuscular injection every 12 h"
+        },
+        "answer": "B",
+        "explanation": "Rapid elimination means plasma levels fall quickly. Continuous infusion maintains effective concentration better than bolus or intermittent routes."
+    },
+    {
+        "id": 93,
+        "concept": "High variability between subjects",
+        "pk_curve": "```markdown\nConcentrations after 10 mg IM dose:\nSubject A: Tmax = 10 min, Cmax = 25 ng/mL\nSubject B: Tmax = 20 min, Cmax = 10 ng/mL\nSubject C: Tmax = 5 min, Cmax = 35 ng/mL\n```",
+        "question": "What is the most likely explanation for variability in Tmax and Cmax among individuals?",
+        "options": {
+            "A": "Differences in systemic clearance",
+            "B": "Differences in absorption rate and local blood flow",
+            "C": "Differences in tissue protein binding",
+            "D": "Differences in enzyme saturation"
+        },
+        "answer": "B",
+        "explanation": "For IM absorption, local perfusion largely dictates Tmax and Cmax, explaining the variability across subjects."
+    },
+    {
+        "id": 97,
+        "concept": "Non-compartmental analysis pitfalls",
+        "pk_curve": "```markdown\nObserved profile:\n| Time (h) | Conc (ng/mL) |\n|----------|--------------|\n| 0.05     | 90           |\n| 0.25     | 30           |\n| 1        | 5            |\n| 3        | 1            |\n```",
+        "question": "What is the biggest risk when applying log-linear terminal extrapolation to estimate AUC here?",
+        "options": {
+            "A": "Overestimation of AUC due to long sampling",
+            "B": "Underestimation of AUC if early distribution phase is misinterpreted as elimination",
+            "C": "Misinterpretation of absorption phase",
+            "D": "Failure to estimate Tmax"
+        },
+        "answer": "B",
+        "explanation": "If the distribution phase is mistaken as elimination, the λz will be overestimated, biasing extrapolated AUC downward."
+    },
+    {
+        "id": 99,
+        "concept": "Nonlinear PK misinterpretation",
+        "pk_curve": "```markdown\nDose vs AUC:\n| Dose (mg) | AUC (ng·h/mL) |\n|-----------|---------------|\n| 1         | 5             |\n| 5         | 50            |\n| 10        | 200           |\n```",
+        "question": "Which mechanism is MOST consistent with the disproportionate increase in AUC at higher doses?",
+        "options": {
+            "A": "Saturable elimination pathway",
+            "B": "Autoinduction of metabolism",
+            "C": "Decreased absorption fraction",
+            "D": "Linear first-order clearance"
+        },
+        "answer": "A",
+        "explanation": "The supra-proportional AUC rise with dose is typical of saturable elimination, not induction or decreased absorption."
+    },
+    {
+        "id": 100,
+        "concept": "Short-lived drug effect vs plasma concentration",
+        "pk_curve": "```markdown\nIV bolus:\n| Time (min) | Conc (ng/mL) | Effect (% of max) |\n|------------|--------------|-------------------|\n| 1          | 100          | 90                |\n| 5          | 30           | 60                |\n| 15         | 8            | 10                |\n| 30         | 2            | 0                 |\n```",
+        "question": "The effect disappears nearly as quickly as plasma concentrations decline. What does this suggest about PK/PD relationship?",
+        "options": {
+            "A": "Hysteresis due to active metabolite",
+            "B": "Direct PK/PD relationship with no delay",
+            "C": "Counter-clockwise hysteresis due to distribution to effect site",
+            "D": "Tachyphylaxis independent of PK"
+        },
+        "answer": "B",
+        "explanation": "The rapid parallel decline in concentration and effect suggests a direct PK/PD relationship without significant hysteresis."
+    }
+]

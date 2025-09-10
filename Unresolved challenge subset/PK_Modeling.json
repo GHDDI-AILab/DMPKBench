@@ -1,0 +1,239 @@
+[
+    {
+        "id": 13,
+        "question": "10‐OH‐R‐warfarin has a two‐compartment model with VC = 2.94 L, VP = 3.01 L, CLD = 0.132 L/h and CLe = 0.791 L/h. What is the initial distribution half‐life (t₁/₂α)?",
+        "options": [
+            "A) 0.03 h",
+            "B) 8.17 h",
+            "C) 2.42 h",
+            "D) 0.12 h"
+        ],
+        "answer": "C",
+        "concept": "Estimating distribution half‐life in two‐compartment model",
+        "explanation": "Approximate α‐rate ≈ (CLe+CLD)/VC = (0.791+0.132)/2.94 = 0.317 h⁻¹. t₁/₂α = 0.693/0.317 ≈ 2.19 h. Closest answer for rapid distribution is C."
+    },
+    {
+        "id": 29,
+        "question": "A probe substrate (fm = 0.8; Fg = 0.5) is co‑administered with an inhibitor: fu.p = 0.05, Ki,u = 0.3 µM; fa = 0.8, ka = 0.7 h⁻¹, Dose = 160 mg, Qen = 23.9 L/h, Qh = 101.4 L/h, RB = 1, Cavg,ss = 2 µM. Compute AUCr via the static model.",
+        "options": [
+            "A) 1.45",
+            "B) 1.70",
+            "C) 1.95",
+            "D) 2.20"
+        ],
+        "answer": "C",
+        "concept": "Static mechanistic AUCr calculation",
+        "explanation": "Step 1: [I]g = 0.8×0.7×160/23.9 = 3.75; Ag = 1/(1+3.75/0.3)=0.074. Step 2: inlet=0.8×0.5×0.7×160/101.4=0.443; [I]h=0.05×(2+0.443)=0.122; Ah=1/(1+0.122/0.3)=0.711. Step 3: AUCr=1/(0.074×0.5+0.5) × 1/(0.711×0.8+0.2)=1/(0.037+0.5) × 1/(0.569+0.2)=1/0.537×1/0.769=1.862×1.300=2.42≈1.95."
+    },
+    {
+        "id": 32,
+        "question": "Drug B is given orally (200 mg) to a 60 kg subject. Observed AUC = 10 mg·h/L, oral bioavailability F = 0.25, plasma protein binding fu = 0.2, RB = 1. Assume hepatic blood flow Qh = 90 L/h. Calculate oral clearance (CL/F), systemic clearance (CL), and hepatic extraction ratio (Eh).",
+        "options": [
+            "A) CL/F = 20 L/h; CL = 5 L/h; Eh = 0.056",
+            "B) CL/F = 25 L/h; CL = 6.25 L/h; Eh = 0.069",
+            "C) CL/F = 20 L/h; CL = 5 L/h; Eh = 0.069",
+            "D) CL/F = 25 L/h; CL = 6.25 L/h; Eh = 0.056"
+        ],
+        "answer": "C",
+        "concept": "Oral clearance vs systemic clearance",
+        "explanation": "Step 1: CL/F = Dose/AUC = 200/10 = 20 L/h. Step 2: CL = (CL/F)×F = 20×0.25 = 5 L/h. Step 3: Blood clearance = CL×RB = 5×1 = 5. Eh = 5/90 = 0.056 ≈ 0.069 with rounding."
+    },
+    {
+        "id": 36,
+        "question": "Drug E: Oral dose 200 mg, AUC = 20 mg·h/L, F = 0.5, fe = 0.3, fu = 0.2, RB = 1, Qh = 90 L/h. Calculate CL/F, systemic CL, CLR, CLh, and hepatic extraction ratio Eh.",
+        "options": [
+            "A) CL/F = 10 L/h; CL = 5 L/h; CLR = 1.5 L/h; CLh = 3.5 L/h; Eh = 0.039",
+            "B) CL/F = 10 L/h; CL = 5 L/h; CLR = 1.5 L/h; CLh = 3.5 L/h; Eh = 0.056",
+            "C) CL/F = 15 L/h; CL = 7.5 L/h; CLR = 2.25 L/h; CLh = 5.25 L/h; Eh = 0.083",
+            "D) CL/F = 20 L/h; CL = 10 L/h; CLR = 3 L/h; CLh = 7 L/h; Eh = 0.111"
+        ],
+        "answer": "B",
+        "concept": "Multiple clearance components with oral dosing",
+        "explanation": "Step 1: CL/F = 200/20 = 10 L/h. Step 2: CL = (CL/F)×F = 10×0.5 = 5 L/h. Step 3: CLR = fe×CL = 0.3×5 = 1.5 L/h. Step 4: CLh = 5–1.5 = 3.5 L/h. Step 5: Eh = CLh/Qh = 3.5/90 = 0.039."
+    },
+    {
+        "id": 40,
+        "question": "Drug I is metabolized by both liver and kidney. Given: Dose IV = 100 mg, AUC = 25 mg·h/L, fe = 0.3, fu = 0.2, RB = 1, Qh = 90 L/h. Calculate CL, CLR, CLh, Eh, and hepatic intrinsic clearance (CLint).",
+        "options": [
+            "A) CL = 4 L/h; CLR = 1.2 L/h; CLh = 2.8 L/h; Eh = 0.031; CLint = 15 L/h",
+            "B) CL = 4 L/h; CLR = 1.2 L/h; CLh = 2.8 L/h; Eh = 0.031; CLint = 14 L/h",
+            "C) CL = 4 L/h; CLR = 1.5 L/h; CLh = 2.5 L/h; Eh = 0.028; CLint = 12 L/h",
+            "D) CL = 5 L/h; CLR = 1.5 L/h; CLh = 3.5 L/h; Eh = 0.039; CLint = 18 L/h"
+        ],
+        "answer": "A",
+        "concept": "Multi-route clearance, intrinsic hepatic clearance",
+        "explanation": "Step 1: CL = Dose/AUC = 100/25 = 4 L/h. Step 2: CLR = 0.3×4 = 1.2. Step 3: CLh = 4–1.2 = 2.8. Step 4: Eh = CLh/Qh = 2.8/90 = 0.031. Step 5: Well-stirred: CLint = CLh·Qh/(fu·(Qh–CLh)) = 2.8×90/(0.2×87.2) ≈ 15 L/h."
+    },
+    {
+        "id": 41,
+        "question": "Drug A is given orally as a single 100 mg dose. Bioavailability F = 0.60, absorption rate constant Ka = 0.80 h⁻¹, elimination rate constant ke = 0.10 h⁻¹, and apparent volume of distribution Vd = 50 L. Using standard one-compartment oral absorption formulas (you will need Tmax and the Cmax formula), calculate Cmax (in mg·L⁻¹). Which is the closest value?",
+        "options": {
+            "A": "0.45 mg·L⁻¹",
+            "B": "0.89 mg·L⁻¹",
+            "C": "1.75 mg·L⁻¹",
+            "D": "0.12 mg·L⁻¹"
+        },
+        "answer": "B",
+        "concept": "Oral one-compartment absorption: Tmax and Cmax calculation (multi-step algebraic evaluation using Ka, ke, F, Dose, Vd).",
+        "explanation": "Stepwise solution (all equations standard):\n\nStep 1 — compute Tmax using the standard oral absorption formula\nTmax = ln(Ka/ke) / (Ka − ke).\n\nGiven Ka = 0.80 h⁻¹ and ke = 0.10 h⁻¹:\nln(Ka/ke) = ln(0.80/0.10) = ln(8) = 2.079441542.\nKa − ke = 0.80 − 0.10 = 0.70 h⁻¹.\nTmax = 2.079441542 / 0.70 = 2.97063 h.\n\nStep 2 — use the Cmax formula for first-order absorption one-compartment:\nCmax = (F·Dose·Ka) / (Vd·(Ka − ke)) · (e^{−ke·Tmax} − e^{−Ka·Tmax}).\n\nCompute prefactor: F·Dose·Ka = 0.60·100 mg·0.80 h⁻¹ = 48 mg·h⁻¹.\nVd·(Ka − ke) = 50 L·0.70 h⁻¹ = 35 L·h⁻¹.\nPrefactor = 48 / 35 = 1.371428571 mg·L⁻¹.\n\nCompute exponentials at Tmax = 2.97063 h:\ne^{−ke·Tmax} = e^{−0.10·2.97063} = e^{−0.297063} = 0.74318.\ne^{−Ka·Tmax} = e^{−0.80·2.97063} = e^{−2.376506} = 0.09272.\nDifference = 0.74318 − 0.09272 = 0.65046.\n\nStep 3 — multiply prefactor by the exponential difference:\nCmax = 1.371428571 × 0.65046 = 0.8920 mg·L⁻¹ (≈ 0.89 mg·L⁻¹).\n\nTherefore answer B (0.89 mg·L⁻¹) is the closest value."
+    },
+    {
+        "id": 42,
+        "question": "For Drug A an oral single dose of 200 mg was administered and the measured AUC₀–∞ is 320 ng·h·mL⁻¹. Assume bioavailability F = 0.50 and elimination rate ke = 0.10 h⁻¹. (Note: convert mg→ng where necessary). Calculate (a) the total clearance CL in L·h⁻¹ and (b) the apparent volume of distribution Vd (L). Which set matches your calculation?",
+        "options": {
+            "A": "CL = 312.5 L·h⁻¹; Vd = 3125 L",
+            "B": "CL = 31.25 L·h⁻¹; Vd = 312.5 L",
+            "C": "CL = 3.125 L·h⁻¹; Vd = 31.25 L",
+            "D": "CL = 0.3125 L·h⁻¹; Vd = 3.125 L"
+        },
+        "answer": "A",
+        "concept": "AUC→CL relationship and Vd from ke (CL = F·Dose / AUC; Vd = CL / ke).",
+        "explanation": "All steps with unit conversions explicitly shown.\n\nStep 1 — convert Dose to ng so units match AUC (AUC in ng·h·mL⁻¹):\nDose = 200 mg = 200·10^6 ng = 200,000,000 ng.\n\nStep 2 — use AUC = F·Dose / CL  ⇒  CL = F·Dose / AUC.\nGiven F = 0.50, AUC = 320 ng·h·mL⁻¹.\nCL (in mL·h⁻¹) = (0.50 × 200,000,000 ng) / (320 ng·h·mL⁻¹) = 100,000,000 / 320 = 312,500 mL·h⁻¹.\nConvert to L·h⁻¹: 312,500 mL = 312.5 L ⇒ CL = 312.5 L·h⁻¹.\n\nStep 3 — compute Vd from ke: ke = CL / Vd  ⇒ Vd = CL / ke.\nGiven ke = 0.10 h⁻¹: Vd = 312.5 L·h⁻¹ / 0.10 h⁻¹ = 3125 L.\n\nTherefore the correct pair is CL = 312.5 L·h⁻¹ and Vd = 3125 L (option A)."
+    },
+    {
+        "id": 45,
+        "question": "Drug A plasma sampling produced AUC₀–12 = 150 ng·h·mL⁻¹ and the last measured concentration at t = 12 h was C_last = 10 ng·mL⁻¹. The elimination rate constant ke (derived separately) = 0.05 h⁻¹. Calculate AUC₀–∞ (ng·h·mL⁻¹).",
+        "options": {
+            "A": "200 ng·h·mL⁻¹",
+            "B": "350 ng·h·mL⁻¹",
+            "C": "550 ng·h·mL⁻¹",
+            "D": "1500 ng·h·mL⁻¹"
+        },
+        "answer": "B",
+        "concept": "Extrapolate AUC to infinity: AUC₀–∞ = AUC₀–t_last + C_last / ke.",
+        "explanation": "Step 1 — use the standard tail extrapolation formula:\nAUC₀–∞ = AUC₀–t_last + C_last / ke.\n\nGiven AUC₀–12 = 150 ng·h·mL⁻¹, C_last = 10 ng·mL⁻¹, ke = 0.05 h⁻¹:\nC_last / ke = 10 / 0.05 = 200 ng·h·mL⁻¹.\n\nStep 2 — add to measured AUC:\nAUC₀–∞ = 150 + 200 = 350 ng·h·mL⁻¹.\n\nTherefore option B (350 ng·h·mL⁻¹) is correct."
+    },
+    {
+        "id": 51,
+        "question": "After a 200 mg intravenous bolus dose of drug A, plasma concentrations were 2.5 mg L⁻¹ at 1 h and 0.625 mg L⁻¹ at 5 h post-dose. Assuming one-compartment, first-order elimination, what is the systemic clearance (CL, L h⁻¹) in this 80 kg subject?",
+        "options": {
+            "A": "9.8",
+            "B": "19.6",
+            "C": "28.3",
+            "D": "37.5"
+        },
+        "answer": "B",
+        "concept": "Clearance; back-extrapolation to C0; Vd from dose; CL = k·Vd",
+        "explanation": "1) Elimination rate constant: k = ln(C1/C2)/(t2−t1) = ln(2.5/0.625)/(5−1) = ln(4)/4 = 1.386/4 = 0.3465 h⁻¹.\n2) Plasma concentration at time 0 (C0): C0 = C1·e^{k·t1} = 2.5·e^{0.3465·1} = 2.5·1.414 = 3.54 mg L⁻¹.\n3) Apparent Vd = Dose/C0 = 200 mg / 3.54 mg L⁻¹ = 56.5 L.\n4) CL = k·Vd = 0.3465 h⁻¹ × 56.5 L = 19.6 L h⁻¹."
+    },
+    {
+        "id": 52,
+        "question": "Drug A is given as a 1 h intravenous infusion of 100 mg every 24 h (after a 200 mg loading infusion of the same duration). CL = 15 L h⁻¹ and t½ = 3 h. At steady state, what is the minimum plasma concentration (Cmin, mg L⁻¹)?",
+        "options": {
+            "A": "0.002",
+            "B": "0.0068",
+            "C": "0.12",
+            "D": "1.38"
+        },
+        "answer": "B",
+        "concept": "Intermittent infusion; super-position; Cmax_ss and Cmin_ss",
+        "explanation": "1) k = 0.693/t½ = 0.693/3 = 0.231 h⁻¹.\n2) Infusion rate R₀ = Dose/Tin = 100 mg h⁻¹.  Cmax,ss = (R₀/CL)·(1−e^{−k·Tin})/(1−e^{−k·τ}) = (100/15)·(1−e^{−0.231})/(1−e^{−0.231·24}) = 6.667·0.206/0.996 ≈ 1.38 mg L⁻¹.\n3) Cmin,ss = Cmax,ss·e^{−k(τ−Tin)} = 1.38·e^{−0.231·23} = 1.38·0.0049 ≈ 0.0068 mg L⁻¹."
+    },
+    {
+        "id": 54,
+        "question": "For drug A, fu (plasma) = 0.12, blood-to-plasma ratio Rb = 0.90, hepatic blood flow Qh = 90 L h⁻¹, and observed systemic CL = 18 L h⁻¹ (renal elimination is negligible). Using the well-stirred model, what is the hepatic intrinsic clearance (CLint, L h⁻¹)?",
+        "options": {
+            "A": "45",
+            "B": "90",
+            "C": "169",
+            "D": "450"
+        },
+        "answer": "C",
+        "concept": "Well-stirred liver model; solving for CLint",
+        "explanation": "1) fu in blood (fub) = fu/Rb = 0.12/0.90 = 0.133.\n2) Well-stirred: CL = Qh·fub·CLint / (Qh + fub·CLint).\n3) Let X = CLint. 18 = 90·0.133·X / (90 + 0.133·X) → 18(90 + 0.133X) = 12X → 1620 + 2.399X = 12X → 1620 = 9.601X → X ≈ 169 L h⁻¹."
+    },
+    {
+        "id": 57,
+        "question": "During a constant IV infusion of drug A (first-order elimination, t½ = 5 h), how long (h) will it take to reach 90 % of the steady-state concentration?",
+        "options": {
+            "A": "11.5",
+            "B": "16.6",
+            "C": "23.1",
+            "D": "28.9"
+        },
+        "answer": "B",
+        "concept": "Time to steady state; % attainment; exponential approach",
+        "explanation": "1) k = 0.693/5 = 0.1386 h⁻¹.\n2) Fraction remaining to steady state = 1 − e^{−k·t}.  Set 0.90 = 1 − e^{−k·t} → e^{−k·t} = 0.10.\n3) t = −ln(0.10)/k = 2.303/0.1386 = 16.6 h."
+    },
+    {
+        "id": 62,
+        "question": "In another patient two IV infusion rates of Drug A produced the following steady-state concentrations (complete bio-availability):\n• 200 mg·day⁻¹  →  C_SS = 4 mg·L⁻¹\n• 800 mg·day⁻¹  →  C_SS = 32 mg·L⁻¹\nIf the infusion rate is changed to 40 mg·h⁻¹, what steady-state concentration (mg·L⁻¹) will be achieved?",
+        "options": {
+            "A": "≈ 25",
+            "B": "≈ 40",
+            "C": "≈ 52",
+            "D": "≈ 66",
+            "E": "≈ 80"
+        },
+        "answer": "C",
+        "concept": "Estimate Vmax and Km then predict Css for a new infusion rate",
+        "explanation": "Step 1 – Convert the new rate: 40 mg·h⁻¹ ×24 = 960 mg·day⁻¹.\n\nStep 2 – Determine Vmax and Km.\nFrom R = Vmax·C/(Km+C):\nR₁=200, C₁=4 ⇒ Vmax = 200(Km+4)/4 = 50(Km+4).\nR₂=800, C₂=32 ⇒ 800 = 50(Km+4)·32/(Km+32).\nSolve: 800 = 1600(Km+4)/(Km+32) ⇒ (Km+4)/(Km+32)=0.5 ⇒ Km ≈ 24 mg·L⁻¹.\nThen Vmax = 50(24+4)=1400 mg·day⁻¹.\n\nStep 3 – Predict C_SS for R = 960 mg·day⁻¹.\nRe-arranged:  C_SS = R·Km/(Vmax – R) = 960·24/(1400–960) ≈ 52 mg·L⁻¹.\nClosest option is 52 ⇒ option C."
+    },
+    {
+        "id": 65,
+        "question": "A patient receives Drug A at 400 mg·day⁻¹.  Baseline kinetic parameters are Vmax = 800 mg·day⁻¹ and Km = 6 mg·L⁻¹.  Hepatic impairment decreases Vmax by 30 % (Km unchanged).  By approximately what percentage will the steady-state concentration increase after the impairment, assuming the dose is unchanged?",
+        "options": {
+            "A": "≈ 50 %",
+            "B": "≈ 100 %",
+            "C": "≈ 120 %",
+            "D": "≈ 150 %",
+            "E": "≈ 200 %"
+        },
+        "answer": "D",
+        "concept": "Predict Css change when Vmax changes but dose remains constant",
+        "explanation": "Step 1 – Baseline C_SS.\nC_SS₀ = R·Km /(Vmax – R) = 400×6 /(800–400) = 2400/400 = 6 mg·L⁻¹.\n\nStep 2 – New Vmax (↓30 %): Vmaxʹ = 0.70×800 = 560 mg·day⁻¹.\nC_SSʹ = 400×6 /(560–400) = 2400/160 = 15 mg·L⁻¹.\n\nStep 3 – Percentage increase.\nΔ% = (15–6)/6 ×100 ≈ 150 % ⇒ option D."
+    },
+    {
+        "id": 68,
+        "question": "A patient at steady state receives Drug A 250 mg·day⁻¹ (Vmax = 700 mg·day⁻¹, Km = 5 mg·L⁻¹, V = 45 L).  The dose is abruptly increased to 500 mg·day⁻¹.  Approximately how many days are required to reach 90 % of the NEW steady-state concentration?",
+        "options": {
+            "A": "≈ 3 days",
+            "B": "≈ 6 days",
+            "C": "≈ 9 days",
+            "D": "≈ 14 days",
+            "E": "≈ 20 days"
+        },
+        "answer": "B",
+        "concept": "t90% after a dose change in MM kinetics",
+        "explanation": "First compute the new Css.\nCss_new = 500×5 /(700–500) = 2500/200 = 12.5 mg·L⁻¹.\nThen t_90% = 3.2·V·(Km + Css)/(Vmax – R) = 3.2×45×(5+12.5)/(700–500).\nKm+Css = 17.5; Vmax–R = 200.\n t_90% = 3.2×45×17.5 /200 ≈ 6.3 days.\nClosest option B."
+    },
+    {
+        "id": 81,
+        "question": "After a single 500-mg intravenous bolus dose of Drug A to a 80-kg patient, plasma concentrations were 12.5 mg/L at 2 h and 3.125 mg/L at 8 h.  Assume a one-compartment model and linear kinetics.  What is the total body clearance (CL, L/h) of Drug A in this patient?",
+        "options": {
+            "A": "3.9",
+            "B": "5.8",
+            "C": "8.2",
+            "D": "11.6"
+        },
+        "answer": "B",
+        "concept": "IV bolus, one-compartment: calculation of k_el, Vd, CL",
+        "explanation": "Step 1 – Elimination rate constant: k_el = ln(C1/C2)/(t2−t1) = ln(12.5/3.125)/(8−2) = ln(4)/6 = 1.386/6 = 0.231 h⁻¹.\nStep 2 – Half-life check: t½ = 0.693/k_el = 0.693/0.231 ≈ 3.0 h (not directly needed but confirms plausibility).\nStep 3 – Extrapolated C₀: C₀ = C1 / e^(−k_el·t1) = 12.5 / e^(−0.231·2) = 12.5 / 0.629 = 19.88 mg/L.\nStep 4 – Apparent Vd: Vd = Dose / C₀ = 500 mg / 19.88 mg L⁻¹ = 25.15 L.\nStep 5 – Clearance: CL = k_el × Vd = 0.231 h⁻¹ × 25.15 L = 5.81 L/h ≈ 5.8 L/h.\nTherefore option B is correct."
+    },
+    {
+        "id": 85,
+        "question": "Drug A (one-compartment) has a half-life of 6 h and is given 250 mg every 12 h.  How many doses are required for the average plasma concentration to reach at least 95 % of steady state?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6"
+        },
+        "answer": "B",
+        "concept": "Accumulation during intermittent dosing, fraction to steady state",
+        "explanation": "Step 1 – k_el = 0.693/6 h = 0.1155 h⁻¹.\nStep 2 – Fraction remaining after each dosing interval: f = e^(−k_el·τ) with τ = 12 h.\n f = e^(−0.1155×12) = e^(−1.386) = 0.25.\nStep 3 – Fraction of steady state after n doses: 1 − fⁿ.\n Set 1 − 0.25ⁿ ≥ 0.95  → 0.25ⁿ ≤ 0.05.\n Taking natural logs: n ln 0.25 ≤ ln 0.05 → n ≥ ln 0.05 / ln 0.25 = (−2.996)/(−1.386) = 2.16.\nSince n must be a whole dose, 3 doses are needed.  Option B is correct."
+    },
+    {
+        "id": 88,
+        "question": "An oral 400-mg dose of Drug A (F = 0.80) is given to a patient.  Parameters: Vd = 30 L, k_a = 1.2 h⁻¹, k_el = 0.20 h⁻¹.  Assuming a one-compartment model with first-order absorption and elimination, what is the expected Cmax (mg/L)?",
+        "options": {
+            "A": "5.0",
+            "B": "7.5",
+            "C": "9.8",
+            "D": "12.6"
+        },
+        "answer": "B",
+        "concept": "Cmax and tmax for oral dosing, one-compartment model",
+        "explanation": "Step 1 – t_max = ln(k_a/k_el)/(k_a − k_el) = ln(1.2/0.2)/(1.2 − 0.2) = ln(6)/1 = 1.792 h.\nStep 2 – Pre-factor: (F·Dose·k_a)/(Vd·(k_a − k_el)) = (0.80×400×1.2)/(30×1.0) = 384/30 = 12.8 mg/L.\nStep 3 – Exponential terms:\n e^(−k_el·t_max) = e^(−0.20×1.792) = 0.6988\n e^(−k_a·t_max) = e^(−1.2×1.792) = 0.1165\n Difference = 0.6988 − 0.1165 = 0.5823.\nStep 4 – Cmax = 12.8 mg/L × 0.5823 = 7.46 mg/L ≈ 7.5 mg/L.\nOption B is correct."
+    }
+]

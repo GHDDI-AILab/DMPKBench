@@ -1,0 +1,1007 @@
+[
+    {
+        "question": "Which 3D bioprinted model best exemplifies the integration of real-time electrophysiological monitoring for advanced organoid-based drug screening?",
+        "options": [
+            "A) Bioprinted colorectal cancer organoids",
+            "B) Bioprinted heart-tissue organoids",
+            "C) Bioprinted liver tissue organoids",
+            "D) Bioprinted skin tissue constructs",
+            "E) Bioprinted neural organoids for Parkinson’s disease",
+            "F) Inkjet-printed pancreatic islet organoids"
+        ],
+        "answer": "B",
+        "explanation": {
+            "core_concept": "Sensor-integrated cardiac organoids",
+            "significance": "Electrophysiology is a critical readout for cardiotoxicity screening.",
+            "abstract_support": "PMID:37431937 outlines the need for sensor-incorporated cardiac models. PMID:35300373 describes cardiac tissues’ electrophysiological relevance. PMID:38401878 lacks such sensor focus in cancer models.",
+            "distractor_analysis": "A,E focus on cancer/neural without explicit sensor roadmap. C,F are dosage forms. D deals with wound care, not organoids.",
+            "evolutionary_reasoning": "35300373 → establishes cardiac model importance. 37431937 → highlights next-gen smart systems. 38401878 → contrasts with cancer models lacking sensor integration."
+        },
+        "domain": "Biosensor-integrated organoids",
+        "PMID": [
+            "37431937",
+            "35300373",
+            "38401878"
+        ],
+        "id": 322
+    },
+    {
+        "question": "In refining the Hepatic Risk Matrix for evaluating hepatotoxic risk across a 200-drug set, which additional mechanistic parameter showed limited impact despite its plausibility?",
+        "options": [
+            "A) Inclusion of reactive metabolite and cytotoxic metabolite generation assays",
+            "B) Evaluation of mitochondrial dysfunction using oxygen consumption rate measurements",
+            "C) Assessment of bile salt export pump (BSEP) inhibition potency",
+            "D) Determination of hepatocyte cytotoxicity through concentration–response profiling",
+            "E) Application of Rule-of-Two parameters based on clinical dose and lipophilicity",
+            "F) Augmentation of the Partition Model with ionization state and fractional carbon saturation"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Marginal utility of certain mechanistic add-ons to HRM",
+            "significance": "Efficient resource allocation in DILI screening depends on knowing which assays yield meaningful predictive gains.",
+            "abstract_support": "31532188: Adding reactive/cytotoxic metabolite generation and non-BSEP efflux inhibition produced minimal benefit in risk stratification. 31748707: Roadmap stresses multifactorial integration but warns that not every mechanistic layer improves predictivity. 36107152: Review encourages moving beyond iterative assay stacking toward patient-centric factors.",
+            "distractor_analysis": "B, C, D are core HRM components with demonstrated predictive value (31532188). E and F underpin foundational physicochemical scoring (Rule-of-Two or Partition Model) that the HRM successfully exploits (31532188); both showed substantive rather than negligible impact.",
+            "evolutionary_reasoning": "Early frameworks used physicochemical cut-offs → HRM blended these with key cellular assays (31532188) → attempts to bolt on reactive-metabolite metrics proved of little added worth, steering future efforts toward host factors (36107152)."
+        },
+        "domain": "DILI predictive modeling",
+        "PMID": [
+            "31532188",
+            "31748707",
+            "36107152"
+        ],
+        "id": 407
+    },
+    {
+        "question": "In developing simplified, genotype-informed pediatric PBPK models for atomoxetine dosing, which modeling adjustment was most critical for achieving predictive accuracy within a threefold range of observed plasma concentrations?",
+        "options": [
+            "A) Refining enterohepatic recirculation parameters while maintaining pediatric tissue partition coefficients",
+            "B) Scaling intrinsic hepatic clearance to mirror CYP2D6 genotype variations alongside pediatric body size",
+            "C) Adopting adult gastric emptying rates and minimizing first-pass metabolism components",
+            "D) Setting renal clearance to zero for all genotypes to simplify mass balance calculations",
+            "E) Omitting metabolite formation pathways to focus solely on parent drug exposure",
+            "F) Incorporating a dynamic CYP3A4 induction factor derived from non-human hepatocyte data"
+        ],
+        "answer": "D",
+        "explanation": {
+            "core_concept": "Model simplification strategy preserving mechanistic fidelity",
+            "significance": "Identifies the parameter most influential for accurate yet computationally efficient pediatric dose predictions.",
+            "abstract_support": "PMID:32184039—Simple PBPK models used body-size scaling and genotype-specific CYP2D6 clearance to overlay observed data. PMID:37879849—Validated approach confirmed in independent cohort. Neither abstract supports alterations to renal or CYP3A4 parameters.",
+            "distractor_analysis": "A not discussed and adult partition values were adjusted for pediatric physiology (32184039). B corresponds to the implemented successful strategy and is therefore correct, contradicting option D. C counters inclusion of first-pass 4-hydroxylation (32184039). D removal of renal clearance is unsupported; renal pathways contribute to atomoxetine excretion. E metabolite pathways were essential for ratio predictions (37879849). F CYP3A4 induction not reported.",
+            "evolutionary_reasoning": "Complex Simcyp models (32184039) → streamlined models retaining genotype-dependent clearance and pediatric physiology (37879849) demonstrated comparable accuracy, highlighting selective parameter scaling as pivotal."
+        },
+        "domain": "PBPK model optimization",
+        "PMID": [
+            "32184039",
+            "37879849"
+        ],
+        "id": 603
+    },
+    {
+        "question": "What kinetic explanation best accounts for the simultaneous reduction in CYP2D6 efficiency and the persistent formation of reactive metabolites in atomoxetine intermediate metabolizers?",
+        "options": [
+            "A) A reduced Km in CYP2D6 variants enhances substrate affinity enough to partly compensate for a lower Vmax",
+            "B) Increased hepatic substrate concentration elevates reaction velocity even with a diminished turnover rate, sustaining metabolite formation",
+            "C) Competitive inhibition by paroxetine channels metabolism toward producing reactive metabolites rather than detoxified products",
+            "D) Greater NADPH availability in intermediate metabolizers boosts CYP2D6 activity regardless of genotype",
+            "E) Up-regulated sulfotransferase activity diverts 4-hydroxyatomoxetine away from glucuronidation, indirectly increasing reactive metabolite formation",
+            "F) ATP-binding cassette transporters retain atomoxetine within the endoplasmic reticulum, thereby enhancing local CYP3A4-mediated formation of reactive species"
+        ],
+        "answer": "E",
+        "explanation": {
+            "core_concept": "Michaelis–Menten substrate concentration effect on enzyme variants",
+            "significance": "Clarifies how toxicity can emerge even with partially compromised metabolic capacity.",
+            "abstract_support": "PMID:37879849—Predicted higher hepatic atomoxetine in IMs. PMID:32184039—Observed elevated parent drug levels. PMID:34431675—CYP2D6 generates reactive metabolites; flux depends on substrate availability.",
+            "distractor_analysis": "A alterations in Km not reported. B correct interplay but matches mechanistic explanation and should be answer; option E is unrelated. C paroxetine interaction absent in clinical setting. D NADPH levels genotype-independent. E sulfotransferase involvement not documented. F CYP3A4 not central to reactive metabolite formation.",
+            "evolutionary_reasoning": "Exposure modeling (37879849) → clinical concentration data (32184039) → mechanistic activation (34431675) indicate substrate-driven compensation of reduced enzyme vigor."
+        },
+        "domain": "Enzyme kinetics and toxicity",
+        "PMID": [
+            "37879849",
+            "32184039",
+            "34431675"
+        ],
+        "id": 605
+    },
+    {
+        "question": "Which co-medication is most likely to increase dotinurad's uricosuric effect by reducing its Phase II metabolic clearance and thereby enhancing intracellular trans-inhibition of URAT1?",
+        "options": [
+            "A) High-dose inhaled salbutamol",
+            "B) Low-dose diflunisal",
+            "C) Nicotinic acid supplementation",
+            "D) Probenecid co-therapy",
+            "E) Short-course azidothymidine",
+            "F) Benzbromarone add-on therapy"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Metabolic inhibition–pharmacodynamic amplification link",
+            "significance": "Highlights potential drug–drug interactions that could overshoot therapeutic urate targets.",
+            "abstract_support": "Salbutamol inhibited intestinal sulfotransferase activity by 68.4 % (PMID:34380635) → reduced sulfation prolongs parent drug → low intrinsic clearance allows exposure to rise markedly (PMID:32327267) → higher intracellular levels potentiate non-competitive trans-inhibition (PMID:37643882).",
+            "distractor_analysis": "B lowers glucuronidation ~22 % (34380635) but less than salbutamol. C competes for URAT1 exchange, potentially reducing efficacy rather than increasing it (37643882). D and F are URAT1 inhibitors without evidence of affecting dotinurad metabolism; additive effects are pharmacodynamic, not metabolic. E azidothymidine inhibition (13 %) is weaker than salbutamol and unlikely to surpass it.",
+            "evolutionary_reasoning": "Characterisation of metabolic pathways (34380635) identified potent SULT inhibition by salbutamol; when integrated with PK retention (32327267) and mechanistic need for intracellular drug (37643882), a strong interaction is predicted."
+        },
+        "domain": "Drug–drug interaction risk assessment",
+        "PMID": [
+            "34380635",
+            "32327267",
+            "37643882"
+        ],
+        "id": 613
+    },
+    {
+        "question": "Which unique amino acid in URAT1 forms a hydrogen bond with the dotinurad phenyl-hydroxyl group, such that its mutation to alanine increases the IC50 from 19 nM to approximately 60–70 nM?",
+        "options": [
+            "A) Histidine 142",
+            "B) Arginine 487",
+            "C) Phenylalanine 365",
+            "D) Lysine 393",
+            "E) Tyrosine 96",
+            "F) Serine 235"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Residue-driven inhibitor selectivity",
+            "significance": "Guides future structure-based design of URAT1-selective agents while avoiding off-target OAT inhibition.",
+            "abstract_support": "Docking and mutagenesis identified H142 as a dotinurad contact; H142A raised IC50 to 62 nM (PMID:38670801). Unique residue confirmed through alignment. Trans-inhibition requires initial selective binding (PMID:37643882), and PK profile favours sustained interaction (PMID:32327267).",
+            "distractor_analysis": "B is essential for activity but not hydrogen-bond partner; R487A abolished function rather than modestly shifting IC50 (38670801). C-F are not reported binding determinants and lack evidence of unique URAT1 specificity.",
+            "evolutionary_reasoning": "Structural elucidation (38670801) refined understanding beyond earlier mechanistic work (37643882), complementing PK insights (32327267) that validated selective target engagement clinically."
+        },
+        "domain": "Structure–activity relationship",
+        "PMID": [
+            "38670801",
+            "37643882",
+            "32327267"
+        ],
+        "id": 614
+    },
+    {
+        "question": "Within successive Japanese FMO3 genome panels, which missense variant was newly reclassified as severely impaired (<10% activity) and subsequently added to PCR-RFLP assays because a restriction site could be exploited?",
+        "options": [
+            "A) Gly11Asp",
+            "B) Val151Glu – previously identified as moderately impaired",
+            "C) Val382Ala – remained categorized with moderate activity reduction",
+            "D) Ser137Leu – not reported among the severely impaired variants",
+            "E) Phe463Val – an older entry not refreshed in recent RFLP updates",
+            "F) Ala334Val – exhibited near-normal enzymatic activity in earlier analyses"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Dynamic expansion of variant catalogues refines clinical testing panels",
+            "significance": "Rapid assay integration of newly discovered deleterious variants ensures up-to-date pharmacogenetic screening.",
+            "abstract_support": "PMID:37041084 newly classified Gly11Asp as <10 % active. Subsequent methodological paper (37856929) added Gly11Asp to PCR-RFLP digestible set. Earlier RFLP compendium (34634752) lacked Gly11Asp.",
+            "distractor_analysis": "Val151Glu and Val382Ala were already catalogued with moderate impairment and RFLP digestion (37041084; 37856929). Ser137Leu and Ala334Val showed near-normal activity and did not enter ‘severe’ lists (38280279). Phe463Val was older and not newly incorporated (35853340).",
+            "evolutionary_reasoning": "Discovery phase (37041084) → assay update (37856929) → comparison to pre-existing panels (34634752) illustrates iterative panel optimisation."
+        },
+        "domain": "Diagnostic pipeline evolution",
+        "PMID": [
+            "37041084",
+            "37856929",
+            "34634752"
+        ],
+        "id": 671
+    },
+    {
+        "question": "Which renal injury biomarker is both approved for preclinical monitoring and shows transcriptional upregulation along with increased protein secretion in RPTEC/TERT1 cells after exposure to various nephrotoxicants?",
+        "options": [
+            "A) Clusterin",
+            "B) Serum creatinine, a traditional indicator of renal function",
+            "C) Blood urea nitrogen, commonly used but with limited early sensitivity",
+            "D) Neutrophil gelatinase-associated lipocalin (NGAL), recognized for detecting acute injury",
+            "E) Kidney injury molecule-1 (KIM-1), associated with tubular injury assessment",
+            "F) β2-Microglobulin, an established marker for renal dysfunction"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Biomarkers bridging in vitro assays and regulatory frameworks",
+            "significance": "Selecting biomarkers with both experimental responsiveness and regulatory endorsement accelerates translation from screening platforms to clinical application.",
+            "abstract_support": "PMID:39105044 lists urinary biomarkers, including clusterin, accepted by FDA and EMA for DIKI monitoring. PMID:32440340 shows that clusterin mRNA and protein levels rise significantly in RPTEC/TERT1 cultures after cisplatin, cyclosporin, aristolochic acid I and gentamicin exposure. PMID:40088574 emphasises the need for human-cell-based systems where such biomarkers can be quantified.",
+            "distractor_analysis": "B and C are conventional but lack early sensitivity and are not up-regulated in the cited in vitro study (32440340). D and E have regulatory interest but were not shown transcriptionally responsive in the RPTEC/TERT1 assay (32440340). F is validated clinically but did not display the combined transcriptional and protein up-regulation described.",
+            "evolutionary_reasoning": "Regulatory endorsement establishes clinical relevance (39105044) → in vitro confirmation in human cells (32440340) → integration into advanced culture systems for screening (40088574)."
+        },
+        "domain": "Translational biomarkers",
+        "PMID": [
+            "39105044",
+            "32440340",
+            "40088574"
+        ],
+        "id": 770
+    },
+    {
+        "question": "Which Template-level structural feature best explains the higher oxidation rates of noscapine and schisantherin E by CYP3A5 compared to CYP3A4?",
+        "options": [
+            "A) The Bay-1 residue in CYP3A5 is positioned closer to the Template border, enhancing ligand stabilization",
+            "B) A trigger residue in CYP3A5 has a bulkier side chain, potentially accelerating access to the heme",
+            "C) CYP3A5 exhibits an angled ligand placement that may facilitate simultaneous binding of multiple molecules",
+            "D) A narrower width-gauge in CYP3A5 forces ligands into a conformation favorable for catalysis",
+            "E) An enlarged left-side Template region in CYP3A5 reduces steric hindrance for ligand binding",
+            "F) A peripheral binding pocket identified by MixMD might allosterically promote oxidation in CYP3A5"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Residue relocation influencing catalytic efficiency among CYP3A isoforms",
+            "significance": "Understanding isoform-specific residue topology aids rational selection of metabolic soft spots during lead optimization.",
+            "abstract_support": "CYP3A5 Bay-1 residue near Template border stabilizes ligands (PMID:33866277); Width-gauge and macrolide accommodation discussed for CYP3A4 (PMID:32967779); MixMD pocket pertains to CYP3A4 (PMID:38593186).",
+            "distractor_analysis": "Trigger-residue unreported for CYP3A5 (343866277); bi-molecule binding feature belongs to CYP2B6/2E1 (39793292, 34673327); narrower Width-gauge contradicts CYP3A4 data (32967779); left-side enlargement conflicts with poor CYP3A7 substrates (33866277).",
+            "evolutionary_reasoning": "Initial CYP3A4 Template (32331852, 32967779) explained size accommodation. Extension to CYP3A5 revealed Bay-1 displacement (33866277), clarifying enhanced oxidation without invoking novel Trigger residues or peripheral pockets."
+        },
+        "domain": "Isoform-specific catalytic architecture",
+        "PMID": [
+            "33866277",
+            "32967779",
+            "38593186"
+        ],
+        "id": 801
+    },
+    {
+        "question": "What best explains the failure of a fixed 2 mg/kg tacrolimus dose to maintain stable renal graft function in half of cynomolgus monkeys receiving triple immunosuppressive therapy (tacrolimus, mycophenolate mofetil, and steroids)?",
+        "options": [
+            "A) The fixed dosing ignored trough-level adjustments, which clinical studies have shown to improve transplant outcomes (PMID: 31727575).",
+            "B) Enhanced drug clearance due to unverified differences in metabolic enzyme expression in monkeys (PMID: 40588615).",
+            "C) Variability in hematocrit levels leading to misestimation of effective drug exposure (PMID: 31820394).",
+            "D) The strategy did not adjust dosing for bioavailability fluctuations seen in other transplant settings (PMID: 38581638).",
+            "E) Saturable binding kinetics that compromise the reliability of trough measurements at higher concentrations (PMID: 37306899).",
+            "F) A selective immunosuppressive effect limited to B cell activity, leaving T cell memory expansion unmodulated."
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Need for adaptive trough-guided dosing in NHP protocols",
+            "significance": "Aligning preclinical dosing approaches with clinical TDM principles enhances translational relevance.",
+            "abstract_support": "PMID 36057381 observed variable success with a fixed 2 mg kg⁻¹ dose and suggested trough-based adjustment could improve outcomes. PMID 31727575 demonstrated clinical benefits of dosing adjustment based on Cmin changes in kidney transplants.",
+            "distractor_analysis": "B) CYP3A5 prevalence was not measured in monkeys. C) Hematocrit impact was not reported. D) Variability due to bioavailability applies to thoracic humans, not NHP context. E) Saturable binding compromises very high levels, not baseline dosing. F) Immunologic mechanism does not address pharmacokinetic failure.",
+            "evolutionary_reasoning": "Clinical evidence for trough-guided adjustment (PMID 31727575) highlights limitations of fixed preclinical regimens, explaining NHP outcomes (PMID 36057381)."
+        },
+        "domain": "Translational dosing strategies",
+        "PMID": [
+            "36057381",
+            "31727575"
+        ],
+        "id": 825
+    },
+    {
+        "question": "Which reactive intermediate is primarily responsible for CYP3A4 inactivation and hepatotoxicity following nevirapine metabolism?",
+        "options": [
+            "A) Arene-oxide formed at the C-4/C-5 double bond",
+            "B) Quinone-methide produced from 12-hydroxy-nevirapine oxidation",
+            "C) N-oxide generated at the amide nitrogen",
+            "D) Radical species arising from benzylic hydrogen abstraction",
+            "E) Imine formed via oxidative deamination",
+            "F) Carbene produced by α-hydrogen abstraction adjacent to the carbonyl"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Identification of the dominant toxicophore",
+            "significance": "Targeted suppression of the critical reactive intermediate is essential for safer analog development.",
+            "abstract_support": "PMID:32184040 shows CYP3A4 TDI and cytotoxicity disappear when epoxide formation is blocked. PMID:32065749 notes residual toxicity after reducing quinone-methide precursor 12-OH. PMID:37769118 demonstrates continued CYP3A4 inactivation with 12-d3-NVP, consistent with unchanged arene-oxide production.",
+            "distractor_analysis": "B is implicated but not primary; toxicity persists despite lowering 12-OH (32065749, 37769118). C, D, E, F have no experimental backing in any abstract.",
+            "evolutionary_reasoning": "Analogs blocking the arene-oxide (32184040) abolished adverse outcomes, whereas deuteration targeting quinone-methide (32065749 → 37769118) offered limited benefit, cementing the epoxide’s central role."
+        },
+        "domain": "Reactive metabolite toxicology",
+        "PMID": [
+            "32184040",
+            "32065749",
+            "37769118"
+        ],
+        "id": 837
+    },
+    {
+        "question": "What unique attribute of lipid nanoparticles makes them particularly appealing for DIPG therapy versus polymeric or inorganic nanocarriers?",
+        "options": [
+            "A) Ability to generate localized photothermal heat under near-infrared exposure",
+            "B) High drug-to-lipid loading ratios with compatible enzyme-mediated degradation",
+            "C) Superparamagnetic properties that enable magnetically guided delivery",
+            "D) Covalent stability in acidic lysosomal environments to control drug release",
+            "E) Exclusive capacity to form exosome-like vesicles that evade immune detection",
+            "F) Crystalline lattice structure that enhances resistance to oxidative stress"
+        ],
+        "answer": "E",
+        "explanation": {
+            "core_concept": "Biocompatibility and efficient loading underpin LNP utility in DIPG",
+            "significance": "Matching lipid chemistry to endogenous pathways minimises toxicity and supports high therapeutic payloads.",
+            "abstract_support": "PMID:39091904 underscores notable advantages of lipid nanoparticles for DIPG, citing favourable biocompatibility and clinical promise. PMID:35499303 contrasts liposomes with inorganic systems, noting differing BBB transport mechanisms. PMID:33064009 stresses high loading efficiency and minimal nanotoxicity as prerequisites.",
+            "distractor_analysis": "A & C refer to photothermal or magnetic features typical of inorganic NPs (35499303). D covalent stability conflicts with controlled release needs (33064009). E exosome-like vesicle property pertains to biomimetic subclasses rather than generic LNPs. F crystalline lattice describes inorganic carriers, not LNPs.",
+            "evolutionary_reasoning": "39091904 (LNP efficacy) → 35499303 (platform comparison) → 33064009 (design prerequisites) converge on attribute B.",
+            "abstract_support_detailed": {
+                "PMID:39091904": "Details advantages of lipid NPs including improved outcomes.",
+                "PMID:35499303": "Lists multiple nanocarrier classes and transport characteristics.",
+                "PMID:33064009": "Highlights need for high loading efficiency and low toxicity."
+            }
+        },
+        "domain": "Platform selection criteria",
+        "PMID": [
+            "39091904",
+            "35499303",
+            "33064009"
+        ],
+        "id": 854
+    },
+    {
+        "question": "For nanocarriers designed to treat gliomas with locally disrupted blood‑brain barriers, which delivery objective best targets perivascular tumor regions?",
+        "options": [
+            "A) Enhancing drug accumulation in perivascular tumor regions where the BBB is disrupted",
+            "B) Increasing the penetration of unbound drug into intact brain parenchyma",
+            "C) Limiting nanoparticle distribution exclusively to cerebrospinal fluid spaces",
+            "D) Promoting rapid uptake by the reticuloendothelial system to curtail systemic circulation",
+            "E) Targeting endothelial cells solely to establish local drug depots",
+            "F) Maximizing nanoparticle endocytosis in peripheral tumor vasculature with fenestrated endothelium"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Delivering active drug beyond disrupted BBB regions",
+            "significance": "Infiltrative tumours present regions with intact BBB, demanding strategies that ensure parenchymal access.",
+            "abstract_support": "PMID:33064009 emphasises enhancing drug delivery to areas with intact BBB. PMID:39091904 notes DIPG invasion into healthy tissue behind functioning BBB. PMID:39019336 discusses targeting lesion sites beyond disrupted barriers.",
+            "distractor_analysis": "A contradicts need to reach intact BBB. C CSF targeting misses parenchyma. D reduces brain exposure. E endothelial reservoirs insufficient for parenchymal infiltration. F focuses on fenestrated endothelium absent in intact BBB.",
+            "evolutionary_reasoning": "39091904 outlines DIPG infiltration → 33064009 defines delivery necessity → 39019336 suggests targeting strategies, endorsing option B.",
+            "abstract_support_detailed": {
+                "PMID:33064009": "Calls for improved delivery to regions with intact BBB.",
+                "PMID:39091904": "Describes DIPG infiltrating healthy tissue behind intact BBB.",
+                "PMID:39019336": "Highlights need to target lesion sites precisely."
+            }
+        },
+        "domain": "Infiltrative tumour delivery objectives",
+        "PMID": [
+            "33064009",
+            "39091904",
+            "39019336"
+        ],
+        "id": 856
+    },
+    {
+        "question": "Which approach is most suitable for quickly filtering out poorly soluble compounds with minimal computational overhead, based on evidence from various solubility studies?",
+        "options": [
+            "A) Extra Trees regression combined with bootstrap aggregation for ensemble prediction",
+            "B) Graph convolutional network retrained periodically as training data expands",
+            "C) Minuscule molecule-attention transformer (≈3 k parameters) applied as a classifier",
+            "D) Consensus model merging random forest and extra trees based on RMSE weighting",
+            "E) Deep residual network with over 20 layers using full atomistic descriptors",
+            "F) Support vector machine with a radial basis function kernel applied to molecular fingerprints"
+        ],
+        "answer": "C",
+        "explanation": {
+            "core_concept": "Computationally efficient early-stage triage",
+            "significance": "Fast elimination of insoluble candidates conserves synthesis resources and accelerates lead progression.",
+            "abstract_support": "PMID:34038123 – SolTranNet’s 3 393-parameter transformer achieved 94.8 % sensitivity as a classifier; PMID:35300305 – tree ensembles aimed at regression, not ultrafast classification; PMID:36758178 – graph CNNs achieved high accuracy but with heavier compute and focus on regression.",
+            "distractor_analysis": "A, D replicate regression-oriented ensemble logic, not the fastest classification (35300305). B and E incur higher computational costs (36758178). F lacks reported performance metrics within the abstracts.",
+            "evolutionary_reasoning": "Tree ensembles first offered low-cost accuracy (35300305); subsequent deep models improved regression precision (36758178); however, transformer miniaturization (34038123) specifically targeted speed for binary filtering, carving out a distinct niche."
+        },
+        "domain": "Screening efficiency strategies",
+        "PMID": [
+            "34038123",
+            "35300305",
+            "36758178"
+        ],
+        "id": 922
+    },
+    {
+        "question": "Which unexamined covariate is indicated as potentially critical for reducing the remaining variability in lidocaine pharmacokinetics, especially considering the reduced active metabolite formation observed in obese patients?",
+        "options": [
+            "A) Hepatic function biomarkers such as alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels",
+            "B) Renal clearance measures like creatinine clearance",
+            "C) Dynamics of alpha-1-acid glycoprotein saturation",
+            "D) Cardiac output estimations",
+            "E) Intraoperative plasma pH fluctuations",
+            "F) Age-related variations in gastric emptying rates"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Identification of unmodeled hepatic covariates affecting lidocaine metabolism",
+            "significance": "Incorporating objective hepatic biomarkers could refine clearance estimates, especially in populations with altered metabolic capacity like bariatric patients.",
+            "abstract_support": "PMID:38703307 explicitly calls for investigation of hepatic biomarkers to explain remaining PK variability. PMID:40464869 shows diminished MEGX and GX concentrations in obese subjects, implicating reduced metabolic (hepatic) activity. PMID:40021547 models time-dependent clearance but does not incorporate direct hepatic function markers, leaving an explanatory gap.",
+            "distractor_analysis": "Renal (B) is less relevant for lidocaine’s non-renal clearance. Alpha-1-acid glycoprotein (C) was already considered in some models per the review, not flagged as missing. Cardiac output (D) affects distribution but was not highlighted as unexamined. pH (E) and gastric emptying (F) have minimal impact on IV lidocaine disposition and were unmentioned.",
+            "evolutionary_reasoning": "Systematic review (38703307) identified the need → obese study (40464869) provided clinical signal for reduced metabolism → popPK work (40021547) modelled clearance changes but lacked direct hepatic covariates, collectively underscoring hepatic biomarkers as the next frontier."
+        },
+        "domain": "Future covariate exploration",
+        "PMID": [
+            "38703307",
+            "40464869",
+            "40021547"
+        ],
+        "id": 980
+    },
+    {
+        "question": "What pattern is observed in septic pediatric patients compared to non-septic controls regarding meropenem distribution and renal function as measured by cystatin C-derived eGFR?",
+        "options": [
+            "A) Higher central volume with consistently high eGFR",
+            "B) Lower central volume with consistently low eGFR",
+            "C) Higher central volume paired with lower eGFR",
+            "D) Lower central volume with consistently increased eGFR",
+            "E) Lower central volume with marked variability in eGFR",
+            "F) No significant change in central volume or eGFR"
+        ],
+        "answer": "E",
+        "explanation": {
+            "core_concept": "Impact of septic pathophysiology on distribution and renal function variability",
+            "significance": "Simultaneous contraction of distribution space and unpredictable filtration undermines empiric dosing.",
+            "abstract_support": "40272699: Septic cases had significantly lower V1 and lower but highly variable eGFR-MS relative to controls.\n36251162 & 39692096: Reinforce that such variability necessitates adaptable dosing strategies, especially prior to CRRT initiation.",
+            "distractor_analysis": "A, C misstate direction of volume change.\nB ignores the documented wider variability.\nD contradicts reduced eGFR.\nF conflicts with reported significant differences.",
+            "evolutionary_reasoning": "40272699 identifies variability drivers; 39692096 & 36251162 show how such variability prompts modality-specific dose adjustments, underscoring the monitoring imperative."
+        },
+        "domain": "Clinical pharmacokinetics",
+        "PMID": [
+            "40272699",
+            "39692096",
+            "36251162"
+        ],
+        "id": 985
+    },
+    {
+        "question": "Which pharmacokinetic parameter of DDCI-01 best suggests target-mediated drug disposition and aligns with the full-length enzyme binding observed for the trisubstituted pyrazoline d12?",
+        "options": [
+            "A) Increasing apparent clearance (CL/F) with higher doses, indicating a saturable tissue binding process",
+            "B) A decline in terminal half-life with dose escalation, which would reflect enhanced metabolic elimination",
+            "C) A direct linear relationship between AUC and dose, implying the absence of saturable pathways",
+            "D) Dose-independent volume of distribution (Vz/F), implying limited tissue binding",
+            "E) Consistent peak concentrations (Cmax) across doses, suggesting zero-order absorption kinetics",
+            "F) Enhanced first-pass metabolism at higher doses, leading to undetectable levels in systemic circulation"
+        ],
+        "answer": "D",
+        "explanation": {
+            "core_concept": "PK non-linearity due to target engagement",
+            "significance": "Mechanistic PK insights inform dosing strategies for inhibitors with high affinity for abundant enzymes.",
+            "abstract_support": "PMID:40048121 reports rising CL/F and Vz/F with dose; such increases imply saturable binding to tissue PDE5 at low doses—a hallmark of target-mediated disposition. PMID:33793216 shows d12 requires full-length enzyme interaction, illustrating how extensive binding surfaces can sequester drug. PMID:39947049 notes the clinical challenge of tissue distribution and selectivity for PDE5 inhibitors.",
+            "distractor_analysis": "B incorrect because half-life stayed ~35–40 h (40048121). C contradicts <dose-proportional exposure. D is correct descriptor of non-linearity. E refuted by rising Cmax. F lacks data; systemic exposure quantified.",
+            "evolutionary_reasoning": "Understanding of PDE5 binding domains (33793216) helps rationalize PK behavior observed clinically (40048121) and guides future design highlighted in review (39947049)."
+        },
+        "domain": "Pharmacokinetics & target engagement",
+        "PMID": [
+            "40048121",
+            "33793216",
+            "39947049"
+        ],
+        "id": 994
+    },
+    {
+        "question": "Based on recent exposure–response studies of PDE5 inhibitors, which pharmacodynamic rationale supports once-daily dosing of long-acting agents such as DDCI-01 for pulmonary arterial hypertension?",
+        "options": [
+            "A) A terminal half-life near 40 hours supports sustained cGMP elevation for 24 hours, paralleling tadalafil’s profile.",
+            "B) A rapid onset paired with a short half-life would necessitate more frequent dosing.",
+            "C) Fluctuations in PDE5 activity due to circadian rhythms eliminate the need for continuous inhibition.",
+            "D) An extended half-life could provoke receptor desensitization that diminishes vasodilatory responses.",
+            "E) Extensive first-pass metabolism limits the duration of active exposure despite dosing.",
+            "F) A dose-dependent increase in clearance reduces plasma levels too quickly for once-daily dosing."
+        ],
+        "answer": "F",
+        "explanation": {
+            "core_concept": "Linking pharmacokinetics to pharmacodynamic endpoints in PAH",
+            "significance": "Supports simplified dosing regimens improving adherence in chronic therapy.",
+            "abstract_support": "PMID:40048121 reports terminal t1/2 of 35–40 h for DDCI-01. Review 39947049 explains need for long-acting PDE5 inhibitors to ensure continuous cGMP signaling in PAH. Small-molecule overview 39163778 correlates half-life with dosing frequency across PDE inhibitors.",
+            "distractor_analysis": "B contradicts long half-life data. C circadian regulation irrelevant. D no evidence of desensitization from sustained exposure. E active exposure persists beyond 4 h. F incorrect; clearance low enough for daily dosing.",
+            "evolutionary_reasoning": "Advances in PK characterization (40048121) align with therapeutic demands outlined for PAH (39947049) and general PDE pharmacology principles (39163778)."
+        },
+        "domain": "Clinical pharmacology & PAH therapy",
+        "PMID": [
+            "40048121",
+            "39947049",
+            "39163778"
+        ],
+        "id": 1003
+    },
+    {
+        "question": "In adults with augmented renal clearance suffering from Pseudomonas aeruginosa infections (MIC 16 mg/L), which piperacillin/tazobactam dosing regimen is recommended by cross-study simulations to optimize target attainment while minimizing toxicity?",
+        "options": [
+            "A) Intermittent infusion of 4 g piperacillin every 12 hours",
+            "B) Extended infusion of 4 g piperacillin every 8 hours",
+            "C) Continuous infusion delivering 20 g piperacillin over 24 hours",
+            "D) Continuous infusion delivering 12 g piperacillin over 24 hours",
+            "E) Intermittent bolus of 3 g piperacillin every 6 hours",
+            "F) Once-daily short infusion of 16 g piperacillin"
+        ],
+        "answer": "B",
+        "explanation": {
+            "core_concept": "Balancing target attainment and toxicity at high MIC under hyperfiltration",
+            "significance": "Selecting the optimal infusion pattern is critical when treating resistant pathogens in patients with rapid drug clearance.",
+            "abstract_support": "36633812 indicates adults ≤50 y with Clcr ≥ 120 mL/min benefit from extended infusion 4 g q8h or continuous 12 g/day. 35377133 shows that 20 g/day continuous often approaches toxic levels without reliably reaching 5×MIC, whereas 12 g/day meets 1×MIC but may fail 5×MIC. 33876381 review highlights superior PD performance of extended or continuous infusion over intermittent dosing.",
+            "distractor_analysis": "Option A underdoses per both simulation sets. Option C risks toxicity per 35377133. Option D attains 1×MIC but insufficient for 5×MIC as reported. Option E lacks supportive simulation data and risks peak-trough fluctuations. Option F concentrates the entire dose, leading to high Cmax toxicity and prolonged subtherapeutic tail.",
+            "evolutionary_reasoning": "Review-level evidence (33876381) favours prolonged infusions; adult simulation work (36633812) quantifies benefit at high Clcr; ICU modelling (35377133) warns against escalating to 20 g/day, collectively pointing to extended 4 g q8h as the safest efficacious compromise."
+        },
+        "domain": "Dose optimisation",
+        "PMID": [
+            "36633812",
+            "35377133",
+            "33876381"
+        ],
+        "id": 1014
+    },
+    {
+        "question": "Which antiretroviral drugs have been specifically reported to exhibit inconsistent age-related pharmacokinetic effects in studies from 2005 to 2020?",
+        "options": [
+            "A) Bictegravir and doravirine",
+            "B) Etravirine and dolutegravir",
+            "C) Darunavir and lopinavir",
+            "D) Raltegravir and emtricitabine",
+            "E) Atazanavir and ritonavir",
+            "F) Abacavir and efavirenz"
+        ],
+        "answer": "B",
+        "explanation": {
+            "core_concept": "Inter-study inconsistency in age effect reporting",
+            "significance": "Signals the need for standardized study designs and larger geriatric cohorts.",
+            "abstract_support": "Discordant results for etravirine and dolutegravir pharmacokinetics in different age groups (PMID:37561283). Lack of such discrepancies reported for other listed drugs in the same review or earlier data (PMID:39542985). Clinical review (PMID:33913394) cites variability but not specific contradictions for those agents.",
+            "distractor_analysis": "A) Bictegravir and doravirine exposure consistently unaffected by age (37561283). C) Darunavir shows modest increase; lopinavir data precede 2005 set, not conflicting (37561283, 39542985). D, E, F) No mention of contradictory findings.",
+            "evolutionary_reasoning": "Systematic aggregation (37561283) identifies agent-specific inconsistency; earlier-approved drug review (39542985) and clinical perspective (33913394) lack such contradictions, underscoring evolution of evidence."
+        },
+        "domain": "Evidence heterogeneity",
+        "PMID": [
+            "37561283",
+            "39542985",
+            "33913394"
+        ],
+        "id": 1035
+    },
+    {
+        "question": "Which statement best describes weight-based dosing considerations for adalimumab and risankizumab in overweight psoriasis patients?",
+        "options": [
+            "A) Adalimumab may require shortened dosing intervals in obese patients, while risankizumab maintains its efficacy with a fixed dosing schedule.",
+            "B) Both biologics necessitate milligram-per-kilogram adjustments to preserve PASI 90 response rates.",
+            "C) Risankizumab demonstrates reduced efficacy at lower doses in heavier patients, although adalimumab’s response is largely unaffected by weight.",
+            "D) Adalimumab is less influenced by anti-drug antibody formation, whereas risankizumab may exhibit increased clearance due to antibodies that could warrant dose modifications.",
+            "E) More frequent dosing of adalimumab improves outcomes in overweight patients, in contrast to risankizumab, which shows maintained efficacy without schedule changes.",
+            "F) Neither agent exhibits significant pharmacodynamic differences based on body weight since monoclonal antibodies are primarily eliminated via non-renal pathways."
+        ],
+        "answer": "B",
+        "explanation": {
+            "core_concept": "Body-weight impact on biologic exposure and dosing pragmatics",
+            "significance": "Correct dosing strategy minimizes under-exposure and treatment failure in heavier patients.",
+            "abstract_support": "PMID 38280146 describes more frequent adalimumab dosing improving clearance in overweight subjects. PMID 31667790 identifies risankizumab 75 mg as suboptimal for PASI 100 in heavier patients, implying exposure sensitivity. PMID 31758502 nonetheless notes standard 150 mg achieves efficacy plateau across weight categories, but statistical correlation with clearance exists, supporting consideration of pharmacokinetics.",
+            "distractor_analysis": "A overlooks need for weight consideration with risankizumab 75 mg. C conflicts with 31758502 showing maintained efficacy at 150 mg. D misstates antibody profiles; risankizumab <2 % high-titre, adalimumab prone to ADA. E lacks evidence of adalimumab degradation trend. F ignores weight-dependent distribution volumes reported in both papers."
+        },
+        "domain": "Dose optimisation of biologics",
+        "PMID": [
+            "38280146",
+            "31667790",
+            "31758502"
+        ],
+        "id": 1053
+    },
+    {
+        "question": "For long-term management of psoriasis, which set of findings supports choosing nanocarrier-based topical PDE-4 inhibitors over conventional corticosteroid ointments?",
+        "options": [
+            "A) Nanocarriers improve drug penetration and lower systemic exposure for non-steroidal compounds, while prolonged steroid use is associated with skin atrophy and withdrawal symptoms.",
+            "B) Steroid ointments show reduced effectiveness with repeated use, yet nanotechnology fails to enhance the stratum corneum penetration of PDE-4 inhibitors.",
+            "C) Corticosteroids cause negligible systemic toxicity, whereas PDE-4 inhibitors induce immunogenicity that nanocarriers intensify.",
+            "D) Nanocarrier delivery of vitamin D analogues demonstrates enhanced potency and adherence compared to PDE-4 inhibitors.",
+            "E) Nanocarrier-based steroid formulations are the only treatments shown to exceed placebo in achieving PASI 90 over a six‐month period.",
+            "F) Encapsulated PDE-4 inhibitors require twice-daily dosing due to rapid clearance, thus offsetting adherence advantages."
+        ],
+        "answer": "C",
+        "explanation": {
+            "core_concept": "Nanotechnology to mitigate safety–adherence trade-offs in topical therapy",
+            "significance": "Strategic formulation innovation addresses chronic-use toxicity and compliance obstacles.",
+            "abstract_support": "PMID 38553411 highlights long-term corticosteroid adverse effects. PMID 34287767 describes nanocarriers enhancing topical drug potency and limiting systemic exposure. PMID 36481585 emphasises the therapeutic relevance of PDE-4 pathway and nanotherapeutics for psoriasis.",
+            "distractor_analysis": "B contradicts 34287767’s evidence on penetration enhancement. C correctly integrates toxicity reduction (steroids) with nanocarrier benefit and PDE-4 suitability. D lacks comparative efficacy support. E misattributes PASI 90 superiority to steroids alone; not documented. F opposes nanocarrier objective of reduced application frequency.",
+            "evolutionary_reasoning": "Steroid limitations (38553411) spur exploration of PDE-4 inhibitors (36481585), with nanocarriers providing delivery solutions (34287767)."
+        },
+        "domain": "Topical formulation strategies",
+        "PMID": [
+            "38553411",
+            "34287767",
+            "36481585"
+        ],
+        "id": 1054
+    },
+    {
+        "question": "Which structural optimization strategy for small-molecule JAK and PDE4 inhibitors in psoriasis most directly targets improved potency while simultaneously reducing immunogenicity and administration costs versus monoclonal antibodies?",
+        "options": [
+            "A) Diversifying chemical scaffolds to boost JAK selectivity, though this approach does not inherently lower immunogenicity or therapy costs.",
+            "B) PEGylating corticosteroid compounds to enhance dermal persistence and reduce systemic exposure.",
+            "C) Constructing a hybrid molecule by fusing a TNF-inhibitory module with a JAK inhibitor moiety.",
+            "D) Reformulating HMG-CoA reductase inhibitors for topical delivery to minimize systemic side effects.",
+            "E) Conjugating vitamin D analogues with cyclosporine A fragments.",
+            "F) Engineering liposomal encapsulation of methotrexate for targeted intravenous administration."
+        ],
+        "answer": "E",
+        "explanation": {
+            "core_concept": "Medicinal chemistry optimisation for cost-effective, orally bioavailable immunomodulators",
+            "significance": "Small-molecule innovation targets affordability and reduced immunogenicity versus biologics.",
+            "abstract_support": "PMID 40380777 details exploration of diverse JAK and PDE-4 inhibitor scaffolds to improve selectivity, potency, and oral dosing advantages over biologics. PMID 38529623 notes oral non-biologic therapies’ role despite variable metabolism. PMID 38280146 highlights reduced clearance of CYP-metabolised small molecules, necessitating design that balances potency with pharmacokinetic predictability.",
+            "distractor_analysis": "B, D, E, F do not address JAK/PDE-4 optimisation. C refers to biologic fusion not small-molecule design. A integrates scaffold diversification and oral bioavailability precisely matching optimisation objectives.",
+            "evolutionary_reasoning": "Medicinal chemistry advances (40380777) build on clinical PK experience (38529623) while accounting for metabolic constraints in inflammatory states (38280146)."
+        },
+        "domain": "Medicinal chemistry optimisation",
+        "PMID": [
+            "40380777",
+            "38529623",
+            "38280146"
+        ],
+        "id": 1056
+    },
+    {
+        "question": "For moderate-to-severe psoriasis patients, which pharmacokinetic property differentiates the dosing strategy of apremilast from that of acitretin?",
+        "options": [
+            "A) Inflammation-related reduction in CYP450 activity that raises apremilast levels",
+            "B) Occurrence of anti-drug antibodies being more common with apremilast",
+            "C) Nonlinear absorption kinetics of acitretin that may cause higher exposure",
+            "D) A predominant role of renal secretion leading to rapid clearance of apremilast",
+            "E) Prolonged terminal half-life of acitretin resulting in prompt accumulation",
+            "F) Enterohepatic recycling exclusively affecting acitretin’s active metabolite"
+        ],
+        "answer": "F",
+        "explanation": {
+            "core_concept": "Inflammation-induced metabolic variability guiding oral small-molecule dosing",
+            "significance": "Avoids dose-related toxicity by integrating disease-modified pharmacokinetics.",
+            "abstract_support": "PMID 38280146 specifies decreased clearance of CYP-metabolised small molecules such as apremilast in inflammatory disorders. PMID 38529623 confirms variable response and necessity of therapeutic drug monitoring for apremilast. PMID 33011340 reviews acitretin’s conventional PK lacking CYP-sensitivity, focusing more on unique elimination routes.",
+            "distractor_analysis": "B ADA pertains to biologics. C acitretin absorption is linear. D renal secretion not primary for apremilast. E acitretin half-life long but influences maintenance, not initial dosing. F accurately notes inflammation-reduced clearance impacting apremilast.",
+            "evolutionary_reasoning": "PK observations (38280146) shape dose caution, reinforced by monitoring strategies (38529623) and contrasted with acitretin’s different clearance pathway (33011340)."
+        },
+        "domain": "Oral systemic therapy pharmacokinetics",
+        "PMID": [
+            "38280146",
+            "38529623",
+            "33011340"
+        ],
+        "id": 1057
+    },
+    {
+        "question": "Which pharmacodynamic observation distinctly characterizes risankizumab’s safety profile compared to other IL-23 inhibitors?",
+        "options": [
+            "A) No significant association exists between risankizumab plasma levels and the incidence of serious infections.",
+            "B) Risankizumab is linked to dose-related liver enzyme elevations that require increased monitoring above certain doses.",
+            "C) PASI 90 response probability declines when risankizumab trough concentration surpasses 60 μg/mL due to receptor saturation.",
+            "D) Higher risankizumab exposure correlates with a greater incidence of high-titer anti-drug antibodies in over 10% of patients.",
+            "E) Risankizumab exposure induces neutropenia at levels comparable to those seen with ustekinumab.",
+            "F) Elevated risankizumab concentrations necessitate a dose reduction to 75 mg in patients with C-reactive protein levels above 10 mg/L."
+        ],
+        "answer": "C",
+        "explanation": {
+            "core_concept": "Exposure-response dissociation for safety endpoints in biologic therapy",
+            "significance": "Informs dosing ceilings and monitoring strategies.",
+            "abstract_support": "PMID 31667790 reports no apparent relationship between risankizumab concentration and safety variables, including serious infection. PMID 31758502 corroborates lack of exposure-safety correlation. PMID 38280146 contrasts with other biologics that may incur safety issues at higher doses, exemplifying risankizumab’s differentiating PD profile.",
+            "distractor_analysis": "B and E not documented. C matches stated absence of exposure-related safety events. D overstates ADA incidence (<2 % high-titre per 31758502). F contradicts efficacy plateau data.",
+            "evolutionary_reasoning": "Clinical pharmacology findings (31758502) validated regionally (31667790) reinforce favourable exposure-safety profile lacking in earlier cytokine-targeting agents (38280146)."
+        },
+        "domain": "Exposure-safety dynamics",
+        "PMID": [
+            "31667790",
+            "31758502",
+            "38280146"
+        ],
+        "id": 1060
+    },
+    {
+        "question": "What factor most limits the clinical use of pharmacogenomic testing to tailor oral systemic therapies for moderate-to-severe psoriasis?",
+        "options": [
+            "A) Limited correlation between genetic polymorphisms and treatment response, along with financial and insurance barriers.",
+            "B) A lack of measurable pharmacokinetic variability among psoriasis patients.",
+            "C) A high prevalence of actionable genetic markers that are already factored into dosing guidelines.",
+            "D) Established association of HLA-B*57:01 with methotrexate toxicity compelling routine screening.",
+            "E) Regulatory restrictions that prohibit genetic testing in autoimmune conditions.",
+            "F) Absence of genetic polymorphisms impacting cytochrome P450 enzymes involved in drug clearance."
+        ],
+        "answer": "D",
+        "explanation": {
+            "core_concept": "Economic and evidentiary hurdles in personalised psoriasis therapy",
+            "significance": "Identifies translational gap between genomic discovery and bedside utilisation.",
+            "abstract_support": "PMID 38529623 cites limited polymorphisms correlated with response and financial/insurance hurdles curtailing implementation. PMID 38280146 demonstrates variable clearance of drugs like tofacitinib, indicating potential but unrealised pharmacogenomic applications. PMID 40380777 emphasises continuing medicinal chemistry optimisation despite genotypic variability.",
+            "distractor_analysis": "B contradicts documented PK variability. C overstates validation status. D correctly summarises limitations. E lacks legal basis. F refuted by CYP-related findings.",
+            "evolutionary_reasoning": "PK/PD variability recognition (38280146) fosters genomic investigations (38529623), yet insufficient actionable associations impede adoption, prompting medicinal chemistry solutions (40380777)."
+        },
+        "domain": "Pharmacogenomics implementation barriers",
+        "PMID": [
+            "38529623",
+            "38280146",
+            "40380777"
+        ],
+        "id": 1061
+    },
+    {
+        "question": "Which of the following factors is least likely to necessitate a dosing adjustment for cotadutide in adults with type 2 diabetes and chronic kidney disease?",
+        "options": [
+            "A) A body weight of 150 kg",
+            "B) Severe renal impairment with a creatinine clearance of 25 mL/min",
+            "C) High-titer anti-drug antibody positivity",
+            "D) Alanine transaminase levels at the upper end of the normal range",
+            "E) Use of a higher formulation strength (600 µg instead of 100 µg)",
+            "F) A serum albumin concentration of 3.0 g/dL"
+        ],
+        "answer": "B",
+        "explanation": {
+            "core_concept": "Selection of clinically meaningful pharmacokinetic covariates for dose individualisation",
+            "significance": "Avoiding unnecessary renal-based dose modification streamlines therapy and minimises complexity in patients already burdened with chronic kidney disease.",
+            "abstract_support": {
+                "38236561": "Population PK analysis identified body weight, ADA titre, albumin, ALT, formulation strength and injection device as statistically significant covariates; renal function was not listed.",
+                "37140727": "Single-dose study showed geometric-mean AUC₄₈ and Cmax ratios of 0.99–1.09 across normal, moderate and severe renal impairment, indicating negligible influence of renal function on exposure.",
+                "39218393": "Phase 2b trial used fixed daily doses (100–600 µg) across an eGFR range 20–90 mL min⁻¹ 1.73 m⁻² and still achieved dose-dependent UACR reduction, implying efficacy without renal-based titration."
+            },
+            "distractor_analysis": {
+                "A": "Body weight caused ≤35 % swing in exposure (38236561), supporting weight-informed dosing.",
+                "C": "ADA reduced clearance in the population model (38236561), making antibody status relevant where present.",
+                "D": "ALT was a statistically significant covariate (38236561), albeit clinically small; still larger than the virtually null renal effect.",
+                "E": "Formulation strength influenced PK parameters (38236561), so dose form can mandate adjustment.",
+                "F": "Hypoalbuminaemia showed statistical influence on PK (38236561); renal function did not."
+            },
+            "evolutionary_reasoning": "Early PK modelling (38236561) spotlighted weight and ADA over renal metrics; subsequent renal-impairment study (37140727) confirmed minimal renal impact, and the clinical efficacy trial (39218393) successfully applied fixed dosing across eGFR strata, collectively downgrading renal function as a determinant for dose adjustment."
+        },
+        "domain": "Clinical pharmacokinetics",
+        "PMID": [
+            "38236561",
+            "37140727",
+            "39218393"
+        ],
+        "id": 1078
+    },
+    {
+        "question": "Which pharmacokinetic parameter is most critical to monitor when adjusting oral GnRH antagonist doses to maintain plasma estradiol between 40–50 pg/mL while reducing vasomotor and bone-related side effects?",
+        "options": [
+            "A) Duration above the estradiol suppression threshold (T>20 pg/mL)",
+            "B) Peak plasma concentration (Cmax) of the antagonist",
+            "C) Steady-state unbound fraction of the drug in plasma",
+            "D) Apparent volume of distribution during the luteal phase",
+            "E) Ratio of renal to hepatic clearance",
+            "F) Increase in bioavailability due to food intake"
+        ],
+        "answer": "B",
+        "explanation": {
+            "core_concept": "Cmax as driver of peak-related hypoestrogenic toxicity",
+            "significance": "Controlling the peak minimizes acute vasomotor events and downstream bone loss.",
+            "abstract_support": "37838623 notes rapid absorption (Tmax ~1 h) with dose-dependent hormonal suppression, implying Cmax relevance. 31749075 links higher exposures (reflected in Cmax) to adverse BMD effects. 40315284 identifies over-suppression (<20 pg mL⁻¹) as unnecessary and risky, indicating need to modulate peaks.",
+            "distractor_analysis": "A monitors estradiol directly but does not focus on pharmacokinetic control variable. C unbound fraction is stable and less dose-dependent. D distribution volume shifts are minor influencers. E clearance ratio affects overall exposure not peak intensity. F food effect is formulation-specific and secondary.",
+            "evolutionary_reasoning": "Initial SHR7280 data (37838623) demonstrate high, rapid peaks; elagolix studies (31749075) connect those peaks to safety concerns; the review (40315284) underscores avoidance of deep suppression, collectively pinpointing Cmax as the modifiable variable."
+        },
+        "domain": "PK/PD parameter prioritization",
+        "PMID": [
+            "37838623",
+            "31749075",
+            "40315284"
+        ],
+        "id": 1092
+    },
+    {
+        "question": "Which anatomical parameter most reliably scales renal drug clearance in obese individuals by integrating organ-specific growth and pharmacokinetic data?",
+        "options": [
+            "A) Total body weight",
+            "B) Body mass index (BMI)",
+            "C) Kidney weight",
+            "D) Lean body weight",
+            "E) Liver blood flow",
+            "F) Percentage body fat"
+        ],
+        "answer": "C",
+        "explanation": {
+            "core_concept": "Organ-specific scaling of renal clearance",
+            "significance": "Selecting an organ-appropriate scaler improves clearance predictions for renally eliminated drugs, enabling rational dose individualisation in obesity.",
+            "abstract_support": "1) Adult repository shows kidney weight rises ~60 % vs ~200 % rise in body weight (PMID:35699913); 2) Weight-normalised clearance in obese adults falls despite larger kidneys (PMID:34995474); 3) Paediatric PBPK simulations incorporating kidney size accurately predicted clindamycin and TMP/SMX PK (PMID:34617262).",
+            "distractor_analysis": "A & D: Overpredict clearance because body weight outpaces kidney growth (PMIDs 35699913, 34995474).  B: BMI is a composite index and does not directly reflect filtration capacity (PMIDs 35699913, 36217846).  E: Liver blood flow is irrelevant for predominantly renally cleared agents.  F: Percentage body fat has minimal mechanistic link to glomerular filtration (PMIDs 36217846, 39101366).",
+            "evolutionary_reasoning": "Initial organ-weight data (35699913) revealed disproportional growth. Adult PK trials (34995474) confirmed reduced weight-normalised clearance, prompting paediatric modelling (34617262) to adopt kidney-centric scaling that restored predictive accuracy."
+        },
+        "domain": "PBPK parameterisation in obesity",
+        "PMID": [
+            "35699913",
+            "34995474",
+            "34617262"
+        ],
+        "id": 1113
+    },
+    {
+        "question": "In non-diabetic CKD patients with an eGFR of 30 mL/min/1.73 m², which dapagliflozin dosing adjustment best approximates the exposure observed in diabetic patients with normal renal function?",
+        "options": [
+            "A) 5 mg once daily",
+            "B) 10 mg every other day",
+            "C) 10 mg once daily",
+            "D) 2.5 mg once daily",
+            "E) 20 mg once daily",
+            "F) 15 mg once weekly"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "PK-guided dose optimization in renal impairment",
+            "significance": "Tailoring dose moderates AUC to secure efficacy while limiting hemodynamic stress on glomeruli.",
+            "abstract_support": "PMID 33587286: reduced clearance in CKD markedly elevates AUC at 10 mg. PMID 35908663 indicates favorable renal profile at lower exposure typical of preserved eGFR. PMID 32764153 simulations assume standard exposure; scaling dose down to half maintains target IFV contraction without excess AUC.",
+            "distractor_analysis": "B gives fluctuating peaks; modeling prefers steady exposure. C maintains supratherapeutic AUC (33587286). D risks subtherapeutic exposure relative to modeled efficacy (32764153). E and F markedly overshoot or undershoot exposure bands.",
+            "evolutionary_reasoning": "Empirical PK (33587286) → clinical efficacy window (35908663) → model-based mechanistic range (32764153) argues for a 50 % dose cut to normalize AUC."
+        },
+        "domain": "Dose individualization in SGLT2 inhibition",
+        "PMID": [
+            "33587286",
+            "35908663",
+            "32764153"
+        ],
+        "id": 1140
+    },
+    {
+        "question": "In population PK/PD studies of sarilumab for rheumatoid arthritis, which baseline characteristic was shown to have a negligible effect on DAS28-CRP reduction and therefore does not necessitate a dose adjustment when transitioning from adalimumab?",
+        "options": [
+            "A) High body weight (≥ 100 kg)",
+            "B) Anti-citrullinated peptide antibody positivity",
+            "C) Concomitant methotrexate use",
+            "D) Baseline rheumatoid factor status",
+            "E) Age over 65 years",
+            "F) Current smoking status"
+        ],
+        "answer": "D",
+        "explanation": {
+            "core_concept": "Influence of baseline biomarkers on biologic dosing strategy",
+            "significance": "Accurate identification of non-impactful covariates prevents unnecessary dose tailoring.",
+            "abstract_support": "PMID 32451909 retained rheumatoid factor in the model yet concluded it had ‘no clinically meaningful influence’ on efficacy or safety. PMID 33183071 underscores clinicians’ vigilance with adalimumab but does not link RF titres to dose adaptation. PMID 35757853 presents sarilumab as effective even as monotherapy, reinforcing minimal covariate dependence.",
+            "distractor_analysis": "A, B and C appear in the PK/PD model but might influence clinical perceptions; however, answer D is singled out as a serological marker explicitly declared non-influential. E and F lack evaluation in 32451909, so their impact cannot be deemed negligible with evidence.",
+            "evolutionary_reasoning": "33183071 → clinical need for precise management; 35757853 → platform flexibility of IL-6 blockade; 32451909 → empirical demonstration that RF status does not mandate dose change."
+        },
+        "domain": "PK/PD covariate analysis",
+        "PMID": [
+            "32451909",
+            "33183071",
+            "35757853"
+        ],
+        "id": 1165
+    },
+    {
+        "question": "Both zuranolone (PMID:34793859) and the non-steroidal tricyclic PAMs (PMID:39808706) are designed to optimize the pharmacokinetic profile originally described in the SAGE-217 oral solution study (PMID:31338688). What shared objective are they targeting?",
+        "options": [
+            "A) Achieving a plasma half-life exceeding 72 h to enable weekly dosing",
+            "B) Attaining a rapid Tmax (approximately 1 h) with a 16–24 h half-life to support once-daily dosing",
+            "C) Reducing systemic bioavailability to limit peripheral effects",
+            "D) Boosting first-pass metabolism to decrease parent drug exposure",
+            "E) Enhancing P-glycoprotein efflux at the blood–brain barrier to restrict CNS uptake",
+            "F) Facilitating sublingual absorption to mitigate gastrointestinal variability"
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Oral, once-daily dosing profile for CNS-directed GABAA PAMs",
+            "significance": "Balancing rapid onset with sustained exposure enhances patient adherence and therapeutic consistency.",
+            "abstract_support": "PMID:31338688 reports SAGE-217 Tmax ≈1 h and t½ 16–23 h, dosing once daily. PMID:34793859 emphasizes optimization of neuroactive steroids (zuranolone) toward once-daily oral regimens. PMID:39808706 designs tricyclic PAMs envisaged to be orally available with suitable half-life.",
+            "distractor_analysis": "A misstates the intended dosing frequency. C–F contradict goals or are not supported by cited studies.",
+            "evolutionary_reasoning": "Clinical PK data (31338688) guided subsequent chemistry (34793859, 39808706) to maintain rapid absorption yet day-long coverage."
+        },
+        "domain": "Pharmacokinetic optimization",
+        "PMID": [
+            "34793859",
+            "39808706",
+            "31338688"
+        ],
+        "id": 1184
+    },
+    {
+        "question": "In a rabbit model, which FXIa inhibitor, when co-administered intravenously with aspirin, did not further prolong cuticle bleeding time beyond the effect of aspirin alone?",
+        "options": [
+            "A) Asundexian, a next-generation FXIa inhibitor",
+            "B) Compound 43, an experimental FXIa inhibitor",
+            "C) Compound 4a, an early-stage FXIa inhibitor",
+            "D) Inhibitor 1, a candidate FXIa modulator",
+            "E) A small-molecule inhibitor targeting factor XIIIa",
+            "F) Milvexian"
+        ],
+        "answer": "F",
+        "explanation": {
+            "core_concept": "Evaluation of bleeding liability under combination therapy",
+            "significance": "Demonstrating additive safety with antiplatelets supports real-world polypharmacy scenarios.",
+            "abstract_support": "PMID 34752670 reported that the combination of milvexian and aspirin \"did not increase bleeding time versus aspirin monotherapy\" in rabbits. PMIDs 39215446 and 39257338 addressed antiplatelet combinations clinically but lacked the specific bleeding-time experiment.",
+            "distractor_analysis": "A and B were not tested in the rabbit bleeding-time assay. C pertains to FXIIa. D refers to a lead FXIIa inhibitor. E is outside the scope of FXIa inhibition.",
+            "evolutionary_reasoning": "Preclinical confirmation (34752670) paralleled clinical observations of safety in dual therapy (39215446), providing mechanistic continuity absent in other compounds."
+        },
+        "domain": "Safety pharmacology",
+        "PMID": [
+            "34752670",
+            "39215446",
+            "39257338"
+        ],
+        "id": 3226
+    },
+    {
+        "question": "Which hepatic CYP isoform exhibits a diabetic alteration that contradicts the BMI findings observed in patients with obesity?",
+        "options": [
+            "A) CYP3A4 activity is reduced in diabetes, aligning with its anticipated decrease with increased BMI",
+            "B) CYP2C19 activity is diminished in diabetes, with no significant BMI association reported in obesity",
+            "C) CYP2C9 activity is increased in diabetes despite showing no BMI-related effect in obesity",
+            "D) CYP2B6 activity appears elevated in diabetes, opposing its observed decline with higher BMI",
+            "E) CYP1A2 activity remains unchanged in both diabetes and obesity",
+            "F) CYP2D6 activity is reduced in diabetes similarly to its neutral response to BMI in obesity"
+        ],
+        "answer": "C",
+        "explanation": {
+            "core_concept": "Opposing disease versus BMI impact on CYP2C9 activity",
+            "significance": "Highlights need for disease-specific dosing beyond weight adjustments",
+            "abstract_support": "Diabetic PBPK model quantifies 38% increase in CYP2C9 activity (PMID 38819713). Obesity study showed no significant hepatic CYP2C9 alteration; only CYP2B6 negatively correlates with BMI (PMID 31685482). Rat sex-based transcriptomics serves as additional variability layer (PMID 32193355).",
+            "distractor_analysis": "A consistent decrease, no contradiction. B obesity data absent not contradictory. D CYP2B6 shows opposing trend but option misstates direction. E CYP1A2 data lacking. F CYP2D6 no diabetes data.",
+            "evolutionary_reasoning": "BMI study (31685482) establishes baseline; diabetic model (38819713) reveals divergent CYP2C9 induction; sex transcriptomics (32193355) underscores complexity."
+        },
+        "domain": "Disease-drug interactions",
+        "PMID": [
+            "38819713",
+            "31685482",
+            "32193355"
+        ],
+        "id": 7309
+    },
+    {
+        "question": "For early medicinal chemistry screening, what was observed regarding the performance of ADMET Predictor and CYPlebrity when they were used to assess 52 frequently prescribed drugs?",
+        "options": [
+            "A) Both ADMET Predictor and CYPlebrity outperformed all other tools in correctly classifying CYP inhibitors.",
+            "B) Neither ADMET Predictor nor CYPlebrity performed significantly better than random chance.",
+            "C) ADMET Predictor showed higher accuracy while CYPlebrity lagged behind compared to most competitors.",
+            "D) CYPlebrity consistently outperformed ADMET Predictor across all performance metrics.",
+            "E) The differences in performance were solely due to the exclusive integration of in vitro inhibition constants.",
+            "F) Both tools were excluded from consideration because they lacked user-friendly graphical interfaces."
+        ],
+        "answer": "A",
+        "explanation": {
+            "core_concept": "Benchmarking in-silico CYP inhibition tools",
+            "significance": "Guides tool selection for efficient compound triage.",
+            "abstract_support": "37517604 found ADMET Predictor and CYPlebrity demonstrated best performance; 37076696 later shows need to augment with clearance partitioning; 34592448 notes ML tool performance varies with data quality.",
+            "distractor_analysis": "B, C, D contradict 37517604; E misattributes cause; F irrelevant to scientific performance.",
+            "evolutionary_reasoning": "Initial benchmarking (37517604) provides baseline before mechanistic enhancements (37076696) and broader ML insights (34592448)."
+        },
+        "domain": "In-silico enzymology",
+        "PMID": [
+            "37517604",
+            "37076696",
+            "34592448"
+        ],
+        "id": 7334
+    },
+    {
+        "question": "Which biomarker class shows validated prognostic value in severe intrinsic DILI, such as acetaminophen-induced liver injury, but has not been validated for idiosyncratic cases?",
+        "options": [
+            "A) Plasma keratin-18 fragment levels",
+            "B) HLA-B*57:01 allele typing",
+            "C) Circulating high-mobility group box-1 (HMGB1) acetyl isoforms",
+            "D) Serum glutamate dehydrogenase activity",
+            "E) Extracellular vesicle bile salt export pump (BSEP) mRNA expression",
+            "F) Urinary microRNA-21 concentrations"
+        ],
+        "answer": "C",
+        "explanation": {
+            "core_concept": "Disparity in biomarker validation between intrinsic and idiosyncratic liver injury",
+            "significance": "Guides biomarker selection for future prospective trials targeting heterogeneous DILI etiologies.",
+            "abstract_support": "Human APAP overdose studies identified acetylated HMGB1 as mechanistic and prognostic (PMID:37918967) → novel biomarker review emphasizes intrinsic validation versus idiosyncratic scarcity (PMID:34903588) → systematic review stresses lack of non-genetic biomarkers distinguishing idiosyncratic DILI (PMID:34727797).",
+            "distractor_analysis": "A, D have partial data but limited prognostic specificity; B genetic risk pertains to idiosyncratic flucloxacillin not intrinsic; E and F lack human validation.",
+            "evolutionary_reasoning": "Mechanistic discovery (37918967) progressed to broader biomarker cataloguing (34903588); systematic appraisal (34727797) underscored unmet need in idiosyncratic space."
+        },
+        "domain": "Biomarker validation gaps",
+        "PMID": [
+            "37918967",
+            "34903588",
+            "34727797"
+        ],
+        "id": 7476
+    },
+    {
+        "question": "What unique mechanism mediates the uptake of the dicationic bis-6-amidino-benzothiazole compound 9a, setting it apart from acoziborole and benzothiazole amidoxime 12b?",
+        "options": [
+            "A) Passive diffusion driven by high lipophilicity",
+            "B) Carrier-mediated transport via nucleoside permeases",
+            "C) Clathrin-dependent endocytosis resulting in lysosomal sequestration",
+            "D) Active transport through folate receptors",
+            "E) P-glycoprotein (P-gp) mediated efflux inhibited by verapamil",
+            "F) Uptake via proton-coupled peptide transporters"
+        ],
+        "answer": "C",
+        "explanation": {
+            "core_concept": "Endocytosis-mediated drug accumulation",
+            "significance": "Exploiting parasite endocytosis can compensate for low membrane permeability of charged molecules.",
+            "abstract_support": "PMID 37722077 demonstrated endocytotic uptake for 9a; acoziborole (PMID 36763327) showed rapid passive plasma appearance; amidoxime 12b (PMID 40499247) displayed moderate passive permeability and was a P-gp substrate.",
+            "distractor_analysis": "A applies to acoziborole. B characterises purine analogues (PMID 33784107). D folate transport not implicated. E efflux describes 12b, not uptake. F unsupported.",
+            "evolutionary_reasoning": "37722077 introduces endocytosis concept → 40499247 contrasts amidoxime permeability/efflux → 36763327 exemplifies passive diffusion, reinforcing uniqueness."
+        },
+        "domain": "Cellular uptake mechanisms",
+        "PMID": [
+            "37722077",
+            "40499247",
+            "36763327"
+        ],
+        "id": 7835
+    },
+    {
+        "question": "Which pharmacokinetic liability, common to both acoziborole and benzothiazole amidoxime 12b, was evaluated by detecting reactive acyl-glucuronides in plasma?",
+        "options": [
+            "A) Enterohepatic recycling assessed via activated charcoal co-administration",
+            "B) Rapid renal clearance determined through glomerular filtration rate markers",
+            "C) Excessive brain accumulation measured by microdialysis techniques",
+            "D) Time-dependent auto-induction observed in repeat-dose pharmacokinetic studies",
+            "E) Formation of reactive acyl-glucuronides detected in plasma",
+            "F) Saturable intestinal efflux characterized by bidirectional Caco-2 permeability assays"
+        ],
+        "answer": "E",
+        "explanation": {
+            "core_concept": "Influence of enterohepatic recycling on exposure",
+            "significance": "Recognising recirculation guides dose selection and formulation.",
+            "abstract_support": "Acoziborole PK study (PMID 36763327) employed activated charcoal to probe recirculation; benzothiazole amidoxime 12b (PMID 40499247) did not report charcoal experiments. Quinoline proteasome series (PMID 35993839) focused on brain penetration, providing contrast.",
+            "distractor_analysis": "B–F unrelated or unmeasured.",
+            "evolutionary_reasoning": "36763327 established charcoal methodology → 40499247 lacked such assessment → 35993839 shows alternative PK focus."
+        },
+        "domain": "Enterohepatic pharmacokinetics",
+        "PMID": [
+            "36763327",
+            "40499247",
+            "35993839"
+        ],
+        "id": 7840
+    }
+]

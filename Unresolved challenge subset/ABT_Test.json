@@ -1,0 +1,577 @@
+[
+    {
+        "id": 38,
+        "question": "A $5 5 \\mathrm { k g } 2 7$ -year-old man presents after ingesting 100 pills of $81 \\mathrm { m g }$ aspirin 55 minutes ago. His Glasgow Coma Scale score is 15, and his airway reflexes are intact. His vitals are respiratory rate 25 breaths/min, heart rate 105 bpm, blood pressure $1 2 0 / 8 0 \\mathrm { m m H g }$ , and temperature $1 0 1 . 5 ^ { \\circ } \\mathrm { F }$ $( 3 8 . 6 ^ { \\circ } \\mathrm { C } )$ . What is the appropriate dose of single-dose activated charcoal?",
+        "choices": [
+            "a. None, he is outside of the 30-minute timeframe for the administration of   \nactivated charcoal",
+            "b. 100 grams of activated charcoal",
+            "c. 80 grams of activated charcoal",
+            "d. 60 grams of activated charcoal"
+        ],
+        "answer": "c",
+        "explanation": "Activated charcoal (AC) can absorb certain nonpolar toxic materials in the liquid phase within the gastrointestinal (GI) lumen. The typical timeframe of AC administration is within 1 hour of ingestion. However, substances with a large pill burden that may form bezoars, substances that undergo enterohepatic or enteroenteric recirculation, or substances that decrease GI motility may benefit from activated charcoal administration up to 4 hours after ingestion. In cases of a known xenobiotic dose, AC should be given at a 10:1 ratio of AC to the xenobiotic. In this patient, approximately 8 grams of aspirin was ingested, so 80 grams of activated charcoal is indicated. When the xenobiotic dose is unknown, doses of AC should be given at 1 to 2 grams/kg of body weight. If the amount of aspirin were unknown, it would be reasonable to administer 55 grams of AC to this patient.",
+        "concept": "Activated Charcoal",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 39,
+        "question": "A 58-year-old man presents with chest pain. His blood pressure is normal. His electrocardiogram shows sinus tachycardia with a rate of 160 bpm and no ST-segment elevation. His initial troponin is elevated 4 times greater than the upper limit of normal, and his urine toxicology screen is positive for methamphetamine. Several doses of benzodiazepines and nitroglycerin improve his chest pain but not the tachycardia. What drug should be used next?",
+        "choices": [
+            "a. Haloperidol",
+            "b. Metoprolol",
+            "c. Verapamil",
+            "d. Phentolamine"
+        ],
+        "answer": "b",
+        "explanation": "Metoprolol should be initiated for suspected non–ST-segment elevation myocardial infarction. Tachycardia greatly increases myocardial oxygen demand; thus, treating tachycardia is essential as the half-life of methamphetamine may be up to 12 hours. The mixed beta- and alphablocker labetalol is a good choice if the patient has concomitant tachycardia and hypertension. Haloperidol has unpredictable effects on tachycardia and is more effective in the treatment of methamphetamine-induced agitation. Verapamil and other calcium channel blockers effectively treat methamphetamine-induced hypertension, not tachycardia. The alpha-blocker phentolamine treats hypertension, not tachycardia. It is an older, rarely used drug with a long half-life and is not titratable for the treatment of hypertension.",
+        "concept": "Methamphetamine Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 47,
+        "question": "Paramedics respond to an industrial fire at a paper manufacturing plant. A 54-year-old man self-extricated from a building filled with smoke and is short of breath. The patient was started on $100 \\%$ FiO2 by a non-rebreather mask. Which of the following symptoms would indicate that the cyanide poisoning antidote should be administered as soon as possible?",
+        "choices": [
+            "a. Almond smelling breath",
+            "b. Pulse oximetry reading of $80 \\%$",
+            "c. Rapid, irregular heartbeat",
+            "d. Cherry-red skin"
+        ],
+        "answer": "c",
+        "explanation": "Hydroxocobalamin is relatively well tolerated. Treatment should be initiated early in a patient's care to reduce morbidity and mortality secondary to cyanide gas exposure. There is no constellation of signs and symptoms which are sensitive or specific for cyanide gas toxicity. Providers must maintain a low threshold for giving the antidote in the setting of any indication of a hypermetabolic state. Indications for giving hydroxocobalamin are altered mental status, seizures, respiratory depression or arrest, cardiac dysrhythmia, and unexplained shock. Cyanide poisoning causes inhibition of the mitochondrial enzyme cytochrome oxidase a3, which effectively uncouples oxidative phosphorylation, an essential part of cell metabolism.",
+        "concept": "EMS Asphyxiation And Other Gas And Fire Hazards",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 65,
+        "question": "During a supervised naltrexone-accelerated withdrawal, a naloxone challenge can be performed to ensure complete system depletion of exogenous opioids before giving full-dose oral naltrexone or extendedrelease intramuscular naltrexone. After an initial starting dose of $0 . 1 \\mathrm { m g }$ naloxone, which is the most appropriate next step?",
+        "choices": [
+            "a. Wait 30 minutes, and if asymptomatic give a second dose of naloxone at   \n$0 . 2 \\mathrm { m g }$",
+            "b. Wait 5 minutes, and if asymptomatic give a second dose of naloxone at 0.4   \nmg",
+            "c. Wait 1 to 5 minutes, and if symptomatic quickly give a second dose of   \nnaloxone at $0 . 2 \\mathrm { m g }$",
+            "d. Wait 30 minutes, and if mildly symptomatic (clinical opioid withdrawal   \nscale score of less than 18) give long-acting naltrexone intramuscularly"
+        ],
+        "answer": "a",
+        "explanation": "A low starting dose of naloxone of just $0 . 1 \\mathrm { m g }$ intravenous is given, and the patient is monitored for up to 30 minutes for signs of withdrawal. Typically, symptoms are felt within 1 to 5 minutes. A doubled dose of $0 . 2 \\mathrm { m g }$ is then given, and the patient is observed. Thirty minutes later, a final dose of $0 . 4 \\mathrm { m g }$ is given. If the patient is asymptomatic, it can be assumed that the patient can safely receive naltrexone without fear of withdrawal symptoms. The extended-release injectable version of naltrexone is becoming more popular for the treatment of opiate use disorder, as it only needs to be dosed every 4 weeks. A precipitated withdrawal from opiates, whether caused by naloxone in the pre-hospital or emergency department setting, or by naloxone or naltrexone during a medically supervised withdrawal, can lead to hospital admission or even require intensive care.",
+        "concept": "Opioid Antagonists",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 70,
+        "question": "A 45-year-old man presents with an intentional overdose of his antihypertensive medication. His history is significant for hypertension. The initial presentation was with profound refractory shock and bradycardia requiring initiation of norepinephrine (running at 8 mcg/min) and vasopressin. His mean arterial pressure is $5 9 \\mathrm { m m } \\mathrm { H g }$ . An arterial line is established with a dynamic and flow-based monitor used to assess hemodynamics at the bedside and his cardiac output is $5 . 1 \\mathrm { L } / \\$ min with a stroke volume variability of $1 1 \\%$ . Six hours after the presentation he became rapidly short of breath and is electively intubated. On low tidal volume ventilator settings with a PEEP of 5 and $\\mathrm { F I O } _ { 2 }$ of $100 \\%$ , his $\\mathrm { P O } _ { 2 }$ is $8 2 { \\mathrm { ~ m m ~ H g } }$ . Chest x-ray shows worsening diffuse bilateral infiltrates. Which intervention will most improve his outcome?",
+        "choices": [
+            "a. Additional IV fluids as his stroke volume variation is elevated.",
+            "b. Addition of milrinone as an inotrope.",
+            "c. Increasing dose of insulin dextrose infusion.",
+            "d. Referral for extracorporeal membrane oxygenation."
+        ],
+        "answer": "d",
+        "explanation": "With a normal cardiac output, significantly low P/F ratio, and bilateral alveolar infiltrates, this individual is likely developing acute respiratory distress syndrome with non-cardiogenic pulmonary edema, a manifestation seen in rare cases of calcium channel blocker overdose. Beyond low tidal volume mechanical ventilation, strategies that would improve clinical outcomes if instituted early will be prone ventilation or referral to extracorporeal membrane oxygenation (ECMO). If the cardiac function is well preserved V- V ECMO should be considered without further delay. His stroke volume variation is within $1 3 \\%$ , and cardiac output is normal. Neither additional fluids nor inotropes will be helpful in the scenario. Fluids may worsen his pulmonary edema and respiratory failure.",
+        "concept": "Calcium Channel Blocker Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 141,
+        "question": "A 48-year-old man presents to the emergency department with a self-reported suicidal ideation, stating that he drank a bottle of windshield washer fluid. He is asymptomatic with normal vital signs. A basic metabolic panel (BMP) is unremarkable, the ethanol concentration is negative, and arterial blood gas analysis is normal. Methanol concentration is drawn, and the hospital's laboratory has to send it to another laboratory for gas chromatography. The turnaround time is 24 hours. What is the most appropriate next step?",
+        "choices": [
+            "a. Obtain serum osmolality level",
+            "b. Calculate the osmolality gap",
+            "c. Monitor for acidosis with serial BMPs",
+            "d. Give fomepizole"
+        ],
+        "answer": "c",
+        "explanation": "This patient is asymptomatic with normal acid-base status. Fomepizole should be given when there is evidence of a toxic alcohol. Methanol is a toxic alcohol metabolized by alcohol dehydrogenase to formaldehyde and then by aldehyde dehydrogenase to formic acid. The parent compound, methanol, causes a serum osmolality gap, while formic acid causes anion gap acidosis and retinal toxicity. As the methanol is metabolized, the osmolality gap decreases while the anion gap increases. A serum osmolality gap can be helpful in this situation. If it is elevated, it may support the decision to give fomepizole. However, it cannot be used to rule out the ingestion of toxic alcohol. This patient will require fomepizole to cease the progression of acidosis if it develops. Fomepizole should be given if bicarbonate falls below 15 mEq/L, and then resuscitation should ensue. To help avoid any form of iatrogenic acidosis, the patient should remain hydrated and nourished during the observation period.",
+        "concept": "Methanol Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 168,
+        "question": "A 71-year-old man presents to the emergency room with his daughter. The daughter states that her father has become sick in the last 3 days. The daughter states that he has had increased bowel movements that are looser than normal and 2 urinary incontinence episodes. On a physical exam, the patient has myotic pupils, bradycardia, and is diaphoretic. The patient's daughter states that he has been having problems with his memory for the past 2 years. The patient's primary care provider recently diagnosed him with Alzheimer disease and just started him on new medication 3 days ago. What is the proper treatment to treat his acute condition?",
+        "choices": [
+            "a. Atropine",
+            "b. Esmolol",
+            "c. Atropine then pralidoxime",
+            "d. Supportive therapy with IV hydration"
+        ],
+        "answer": "c",
+        "explanation": "The patient with a recent diagnosis of Alzheimer disease who was started on medication is most likely receiving an anticholinergic medication Rivastigmine is the drug of choice and can cause a cholinergic crisis The symptoms of cholinergic crisis can be remembered by the mnemonic DUMBELS: diarrhea, urination, miosis, bradycardia, excitability, lacrimation, salivation/excessive sweating Pralidoxime should not be administered without atropine. Pralidoxime alone can cause transient oxime-induced acetylcholinesterase inhibition and worsening symptoms",
+        "concept": "Rivastigmine",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 235,
+        "question": "The lab technologist is analyzing a urine sample and observes that the color of the sample is normal but when he subjects the sample to an ultraviolet (Wood) lamp the sample produces red fluorescence. Which of the following is the most likely condition associated with these findings?",
+        "choices": [
+            "a. Hydrogen cyanide poisoning",
+            "b. Pheochromocytoma",
+            "c. Acute intermittent porphyria",
+            "d. Lead poisoning"
+        ],
+        "answer": "d",
+        "explanation": "Urine is an unstable fluid; it changes composition as soon as it is eliminated through micturition. Accurate collection, storage, and handling are crucial to maintaining the sample’s integrity. Urine samples collected from the first void or “morning urine” are considered the best representative for testing. The urine accumulated overnight in the bladder is more concentrated, thus providing an insight into the kidneys’ concentrating capacities and allowing for the detection of trace amounts of substances that may not be present in more diluted samples. Lead poisoning leads to the blockage of the synthesis of heme and in turn, leads to the accumulation of porphobilinogen along with coproporphyrin 3 in urine. This leads to red fluorescence on exposure to the ultraviolet lamp. This concentration however is not enough to cause the change of color of the urine.",
+        "concept": "Urinalysis",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 247,
+        "question": "A 34-year-old man presents with joint and muscle pain, difficulties with concentration, recurrent headaches, generalized, dull abdominal pain, and random mood swings. A history of present illness reveals that he moved into a different residence and the paint in the new home was 20 years old. The symptoms started to appear shortly after moving in. The clinician suspects a poisoning case and suggests a drug for treatment. His blood pressure is 164/94 mm Hg. On physical examination, he demonstrates tetany and facial muscle spasms (when tapped in front of the tragus). Which agent was suggested by the clinician?",
+        "choices": [
+            "a. Edetate disodium ( $\\mathbf { N a } _ { 2 }$ EDTA)",
+            "b. Edetate calcium disodium $\\left( \\mathbf { C a - N a } _ { 2 } \\right.$ EDTA)",
+            "c. N-acetylcysteine",
+            "d. Dimercaprol"
+        ],
+        "answer": "a",
+        "explanation": ": $\\mathbf { N a } _ { 2 }$ EDTA is a calcium chelator and can cause hypocalcemic tetany if given too rapidly IV. It is the treatment of choice for acute severe hypercalcemia. $\\mathbf { C a - N a } _ { 2 }$ EDTA, a lead chelator, does not cause hypocalcemia. N-acetylcysteine, an antidote for acetaminophen overdose, does not affect calcium levels. Dimercaprol, a chelator for various heavy metals including mercury, lead, and arsenic, does not cause hypocalcemia.",
+        "concept": "Ethylenediaminetetraacetic Acid (EDTA)",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 270,
+        "question": "A 16-year-old girl with a history of asthma presents with shortness of breath. She was cleaning at home, where she was using a mixture of strong cleaning products. As she cleaned in a non-ventilated space, her asthma got worse. She was diagnosed with asthma at age 8 years, but she has never had such a bad attack. Her vital signs show blood pressure of 172/105 mmHg, heart rate of 124 bpm, respiratory rate of 32 breaths/min, and oxygen saturation of $89 \\%$ on room air. Her symptoms do not improve with albuterol. Which of the following is the next best step in the management of this patient?",
+        "choices": [
+            "a. Bronchoscopy",
+            "b. Nebulized ipratropium",
+            "c. IV diazepam",
+            "d. Oral prednisone"
+        ],
+        "answer": "a",
+        "explanation": "This patient has preexisting reactive airway disease. She has likely inhaled chlorine gas. This will create hydrochloric acid in the airway. She will likely need aggressive pulmonary hygiene, up to and including bronchoscopy and lavage. Adding a corticosteroid is not a bad idea, but it will accomplish little at this stage. This is not a primary inflammatory picture. There is direct tissue damage in a patient predisposed to bronchial hyperreactivity. In general, adding a sedative to a patient with low oxygen levels is problematic. Hypoxia is a very good activator of the fight-or-flight system.",
+        "concept": "Bleach Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 279,
+        "question": "An 18-year-old man presents to the emergency department after an intentional overdose with an entire bottle of carisoprodol. He is extremely somnolent and unresponsive. Vital signs reveal blood pressure $80 / 43 \\ \\mathrm { m m H g }$ , respiratory rate 18 breaths/min, and heart rate 90 bpm. His pupils appear normal. Which of the following is the most appropriate treatment plan for this patient?",
+        "choices": [
+            "a. Hemodialysis, activated charcoal, and naloxone",
+            "b. Flumazenil, hemodialysis, and activated charcoal",
+            "c. Flumazenil and hemodialysis",
+            "d. Flumazenil, activated charcoal, and naloxone"
+        ],
+        "answer": "c",
+        "explanation": "Flumazenil can be helpful in an overdose situation in reversing the effects of meprobamate, the primary metabolite of carisoprodol. High-flux hemodialysis and peritoneal dialysis have been used to help treat carisoprodol and meprobamate poisoning. The primary metabolite of carisoprodol is meprobamate which is a benzodiazepine-type medication. Meprobamate, like other benzodiazepine medications, works on the GABA-A receptor. Naloxone reverses the effects of opioid medications only and would not be expected to affect a patient with carisoprodol overdose unless the patient also used opioids. Based on the provided history and vitals, there is no indication that the patient used opioids.",
+        "concept": "Carisoprodol",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 289,
+        "question": "A patient comes into the emergency department saying that she forgot that she had taken her dose of phenobarbital for the day and just took another dose. To increase the excretion of the phenobarbital, the provider attempts to alkalinize the urine. Which of the following properties make a drug the most excretable by alkalinization of the urine?",
+        "choices": [
+            "a. Metabolism and elimination in the kidney",
+            "b. Distribution into the intracellular fluid compartment",
+            "c. Minimal binding to proteins",
+            "d. Strong acidity"
+        ],
+        "answer": "c",
+        "explanation": "If they are bound by the protein strongly, it would be difficult to excrete in the urine. If minimally protein-bound, there are fewer interactions that are needed to occur before the drug is eliminated in the urine. The goal of urinary alkalinization is to achieve a urine pH of 7.5 or higher while maintaining a serum pH between 7.55 to 7.60. This is generally done by giving a bolus of $\\mathrm { 1 - 2 ~ m E q / k g }$ of 8.4 percent sodium bicarbonate, followed by continuous infusion. Before the beginning of therapy, baseline measurements should be done for electrolytes, blood urea nitrogen, serum creatinine, glucose, systemic and urinary pH, and serum drug concentrations. Drugs that are likely to respond to urinary alkalinization usually meet four criteria. They are predominantly eliminated unchanged by the kidney, are distributed primarily in the extracellular fluid compartment, are minimally protein-bound and are weak acids with pKa ranging from 3.0 to 7.5.",
+        "concept": "Drug Elimination",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 331,
+        "question": "A 27-year-old man who works in a critical role at a nuclear energy facility is involved in an on-site collision. Drug testing is required. Which of the following is correct regarding the laboratory detection of tetrahydrocannabinol (THC)?",
+        "choices": [
+            "a. THC isomerase is used for urine testing by most analytic laboratories.",
+            "2. The lower detection limit is 500 to $7 0 0 ~ \\mathrm { { n g / m L } }$ for the most commonly used urine assays.",
+            "b. Second-hand smoke can cause false positives in the urine of many nonusers.",
+            "c. THC metabolites can be detected in hair samples up to 3 months after marijuana use."
+        ],
+        "answer": "d",
+        "explanation": "Routine drug testing is often required of employees who work in safetysensitive roles and for the investigation of on-site injuries and collisions. Urine is the most commonly used method of detection. It is not expected to be associated with false positives in those passively exposed to second-hand marijuana smoke. THC carboxylase is the most common screening method used for detection, with a lower limit of approximately 20 to $1 0 0 ~ \\mathrm { { n g / m L } }$ . Hair can also be used to detect exposure up to 3 months following exposure. False positive results can be seen for several substances, such as hemp seed oil and dronabinol, a drug that is sometimes used to treat nausea and vomiting caused by chemotherapy.",
+        "concept": "Marijuana Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 364,
+        "question": "A 66-year-old woman presents with jaundice for the last 2 days. On review of systems, she has had abdominal discomfort and myalgia for 1 week but did not think much of it. She took ibuprofen and acetaminophen without relief. The patient started a new job at a plastics factory 3 months ago. On physical examination, there is an average body habitus woman with sclera icterus, jaundice, and mild right upper quadrant discomfort. A complete metabolic panel is notable for elevated liver enzymes and BUN/Creatinine. What is the next best step in management?",
+        "choices": [
+            "a. Admit for hydration and conservative management",
+            "b. Consult gastroenterology in the emergency department",
+            "c. Give activated charcoal and sorbitol through a nasogastric tube",
+            "d. Give N-Acetylcysteine to help replete glutathione and decrease the   \ncirculation of free radicals."
+        ],
+        "answer": "a",
+        "explanation": "Chloroform exposure can lead to hepatotoxicity and nephrotoxicity, which may result in impaired liver and kidney function. Intravenous hydration helps maintain adequate fluid balance, supports organ function, and promotes the elimination of toxic metabolites. In cases of chronic exposure to chloroform, patients can present jaundiced, abdominal discomfort, nausea, vomiting, and myalgias. Elevated levels of liver enzymes can be observed on blood work and an abdominal ultrasound can show hepatomegaly, fatty liver, or hepatitis. The management of chronic chloroform toxicity typically focuses on supportive care, including close monitoring of organ function, hydration, and addressing specific symptoms or complications. There is no role for N-Acetylcysteine or activated charcoal and sorbitol through a nasogastric in chronic exposure. Chronic exposure to chloroform can lead to hepatotoxicity, causing damage to the liver. Gastroenterologists are needed to assess the extent of liver damage, oversee regular follow-up visits, perform necessary tests, and provide ongoing care to ensure optimal management of the condition.",
+        "concept": "Chloroform Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 372,
+        "question": "A 64-year-old man presents with a headache, sweating, and paraesthesias of his lips, mouth, face, and fingers. A review of systems reveals deliberate poisoning with the use of a pufferfish renowned for a powerful neurotoxin in its viscera, especially the liver. This fish was served under a different name as a steamed dish. Which of the following is the best initial therapy?",
+        "choices": [
+            "a. Mannitol",
+            "b. Neostigmine",
+            "c. Calcium gluconate",
+            "d. Atropine"
+        ],
+        "answer": "b",
+        "explanation": "Tetrodotoxin (TTX) is a potent, heat-stable, water-soluble found in pufferfish. It is a selective and potent sodium channel blocker. Neostigmine is effective in restoring motor strength. Features of poisoning include headache, sweating, and paraesthesias of the mouth, lips, tongue, fingers, and toes. As tetrodotoxin is heat stable, cooked fish may still cause toxicity.",
+        "concept": "Tetrodotoxin Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 392,
+        "question": "A 64-year-old man presents with complaints of recurrent skin irritation. He is a farmer and notes that this irritation has bothered him for many years and occurs several times throughout the growing season but has never occurred in the winter. Usually, he only has some redness and dry, cracked skin that lasts a few days, but occasionally, he has had a few blisters and once had an ulcer that took 2 weeks to heal. When asked, he states that this ulceration happened after mixing liquid fertilizer by hand and forgetting to wear gloves. He denies any other symptoms or medical conditions. Vital signs reveal heart rate 65 bpm, blood pressure $1 3 2 / 7 9 \\ \\mathrm { m m \\ H g }$ , respirations 14 breaths/min, $\\mathrm { S p O } _ { 2 } 9 9 \\%$ on room air, and temperature $3 6 . 9 ^ { \\circ } \\mathrm { C }$ $( 9 8 . 4 ^ { \\circ } \\mathrm { F } )$ . The physical exam reveals a well-appearing man in no acute distress. Skin exam reveals thickened skin over the dorsum of both hands and wrists with cracked, chapped skin on the palms. Lungs are clear to auscultation, and the abdomen is soft and nontender. Based on the history and physical exam, what is the most appropriate next step in management?",
+        "choices": [
+            "a. Skin biopsy",
+            "b. Skin sensitization testing",
+            "c. Pulmonary function testing",
+            "d. Prescribe oral corticosteroids"
+        ],
+        "answer": "c",
+        "explanation": "Agricultural fertilizers can contain hexavalent chromium, and farmers can be occupationally exposed through their use, particularly in the absence of personal protective equipment. This patient's symptom association with the growing season points toward occupational exposure. Dermal exposure to hexavalent chromium causes contact dermatitis mediated by a type IV hypersensitivity reaction. This causes dry, cracked skin and erythema after repeated exposure and can lead to the development of skin thickening, blisters, ulcers, and eczema. Dermal exposure and skin sensitization also increase the risk for respiratory sensitization and the development of occupational asthma, particularly in an aerosolized form. Additionally, chronic inhalation exposure carries an increased lifetime risk of lung cancer, and abnormal pulmonary function could direct management for further investigation. He also may benefit from fitting for a respirator to use while mixing his fertilizer to reduce the risk of inhalation exposure and always wearing gloves. Skin biopsy and sensitization testing may be useful to confirm the diagnosis at later visits, but these are more invasive tests. Systemic steroids may help alleviate symptoms, but this patient is at risk for respiratory symptoms and toxicity and requires further testing.",
+        "concept": "Chromium Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 401,
+        "question": "A 24-year-old woman presents via EMS after being found unconscious at the local university’s chemistry lab next to an unlabeled bottle of liquid. Vital signs are heart rate 89 bpm, temperature $3 7 ^ { \\circ }$ C $9 8 . 6 ^ { \\circ }$ C), blood pressure $1 0 9 / 6 0 \\mathrm { m m H g }$ , respiratory rate 10 breaths/min, and oxygen saturation $7 5 \\%$ on a non-rebreather. Physical examination demonstrates a sweet odor from her mouth, cyanosis, and no response to verbal stimuli. The emergency room providers decide to intubate the patient. Which of the following would most likely aid in diagnosing the substance ingested?",
+        "choices": [
+            "a. Abdominal X-ray",
+            "b. Elevations in liver enzymes showing acute liver injury",
+            "c. Elevations in BUN and creatinine showing acute kidney injury",
+            "d. An ultrasound looking for hepatomegaly"
+        ],
+        "answer": "a",
+        "explanation": "Halogenated hydrocarbons, such as chloroform, possess radiopacity. Chloroform appears as a relatively dense or white area on the X-ray image, contrasting with the surrounding tissues that appear less opaque or darker in comparison. Chloroform ingestions can be clinically diagnosed with information by emergency medical services, such as where the patient was found and what chemicals or substances surrounded him or her, which can be confirmed with an x-ray or by trending serum chemistries. The patient exhibits clinical manifestations indicative of acute chloroform exposure. Acute mild exposure to chloroform can manifest as a range of symptoms, such as mild headache, nausea, and vomiting, depending on the route of exposure. However, severe respiratory distress can ensue in prolonged acute toxicity. The severity of symptoms is influenced by either significant exposure over a short duration or consistent exposure over an extended period. Initial chemistries will not show abnormalities initially but as admission progresses, elevations in liver enzymes, creatinine, and coagulation abnormalities are evident. After two weeks, lab values will normalize.",
+        "concept": "Chloroform Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 408,
+        "question": "A 65-year-old man is brought to the emergency department after his son found him at home in a disoriented state. He states that he overdosed in a suicide attempt but does not recall the name of the drug. He says he is drowsy and has blurry vision. His vitals are temperature $3 7 . 8 ^ { \\circ } \\mathrm { C }$ $( 1 0 0 . 1 ^ { \\circ } \\mathrm { F } )$ , blood pressure $1 2 5 / 8 5 \\ : \\mathrm { m m \\ : H g }$ , heart rate 100 bpm, and respirations 23 breaths/min. Physical exam demonstrates dry mucus membranes, dry skin, and pupils that are 9 mm bilaterally. The lungs are clear to auscultation bilaterally. He has decreased bowel sounds. A Foley catheter is placed, resulting in $7 0 0 ~ \\mathrm { m L }$ of urine immediately. This patient most likely overdosed on which of the following medications?",
+        "choices": [
+            "a. Cocaine",
+            "b. Atropine",
+            "c. Neostigmine",
+            "d. Promethazine"
+        ],
+        "answer": "d",
+        "explanation": "This patient's dry skin, blurry vision, dilated pupils, hyperthermia, urinary retention, and decreased bowel sound are signs and symptoms of anticholinergic toxicity. Anticholinergic toxicity occurs due to the saturation of muscarinic receptors with anticholinergic agents, such as atypical antipsychotics, first-generation antihistamines (ie, promethazine), and tricyclic antidepressants (ie, amitriptyline). Anticholinergic overdose can be treated with acetylcholinesterase inhibitors such as physostigmine. Physostigmine is not currently available. Rivastigmine and pyridostigmine have been proposed as alternatives but are not approved for this indication. This patient likely overdosed on promethazine. Promethazine is a firstgeneration antihistamine with anticholinergic properties. Promethazine's anticholinergic properties are responsible for this patient's dry skin, blurry vision, urinary retention, and reduced bowel sounds.",
+        "concept": "Muscarinic Antagonists",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 449,
+        "question": "A 46-year-old woman presents approximately 14 hours after an intentional overdose of an unknown medication in a suicide attempt. Her history is significant for major depression. Vital signs are blood pressure $1 6 8 / 8 8 \\mathrm { m m H g }$ , temperature $3 6 . 4 ^ { \\circ } \\mathrm { C }$ $( 9 7 . 5 ^ { \\circ } \\mathrm { F } )$ , heart rate 112 bpm, and respiratory rate 18 breaths/min. An EKG demonstrates sinus tachycardia with a QRS of $1 6 4 \\mathrm { m s }$ and QTc of $4 6 2 \\mathrm { m s }$ . Physical examination reveals no neuromuscular findings. Shortly after arrival, she has a tonic-clonic seizure. What is the mechanism underlying the QRS prolongation?",
+        "choices": [
+            "a. Sodium channel blockade",
+            "b. Hypokalemia",
+            "c. Inhibition of myocardial gap junctions",
+            "d. Hyperkalemia"
+        ],
+        "answer": "c",
+        "explanation": "Bupropion toxicity is frequently associated with seizures. The most common signs of cardiotoxicity from bupropion are QRS and QTc prolongation. QRS prolongation from bupropion toxicity is related to impaired gap junction communication. QRS prolongation from bupropion toxicity is often not responsive to sodium bicarbonate.",
+        "concept": "Bupropion Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 457,
+        "question": "A 50-year-old woman is undergoing right knee arthroscopy. The procedure goes as planned, and a postoperative adductor canal block is being performed. The area is prepped and draped, and due to the patient's body habitus, visualization proves to be difficult. Bupivacaine is administered, and the patient immediately becomes severely hypotensive and appears to have a wide-complex tachyarrhythmia on the monitor. Which of the following is the best initial step in managing this patient?",
+        "choices": [
+            "a. Cardiac pacing",
+            "b. Intravenous lipid emulsion (ILE) therapy",
+            "c. Activated charcoal",
+            "d. Advanced cardiac life support"
+        ],
+        "answer": "d",
+        "explanation": "ACLS guidelines are the most appropriate initial step for hemodynamically unstable patients. Cardiac pacing and cardiopulmonary bypass may be considered. According to the ASRA professional society, intravenous lipid emulsion (ILE) therapy is the standard treatment for local anesthetic systemic toxicity (LAST). ILE may be an adjunct therapy to ACLS for cardiac arrest due to local anesthesia. It has emerged in emergency rooms and critical care units as potential rescue therapy for many other acute toxicities and poisonings. Drug classes that have been investigated include tricyclic antidepressants, calcium channel blockers, beta-blockers, antipsychotics, insecticides, and organophosphates.",
+        "concept": "Lipid Emulsion Therapy",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 505,
+        "question": "A 29-year-old man presents after his spouse found him unresponsive and unconscious at home. His history is significant for major depressive disorder. His spouse is unsure of what medications he is currently taking. Vital signs are respiratory rate 6 breaths/min, blood pressure 90/70 mm Hg, temperature $9 8 . 0 ^ { \\circ } \\mathrm { F }$ $( 3 6 . 7 ^ { \\circ } \\mathrm { C } )$ , and heart rate 60 bpm. The patient is lethargic and unable to cooperate with a physical examination. An empty pill bottle reveals the patient overdosed on a medication that increases the duration of chloride channel opening. The most appropriate treatment option for this patient is which of the following?",
+        "choices": [
+            "a. Flumazenil",
+            "b. Activated charcoal",
+            "c. Urine alkalinization",
+            "d. Naloxone"
+        ],
+        "answer": "b",
+        "explanation": "Barbiturates are positive modulators of the GABA-A receptors and act by binding to sites distinct from benzodiazepine binding sites. Binding increases the duration of chloride channel opening, allowing chloride ions to enter the brain cells and leading to increased negative charges, and altering the voltage in the brain. The change in voltage makes the cells resistant to impulses and thus depresses them. Benzodiazepines act on GABA-A chloride ion channels as well. However, their mechanism of action is to increase the frequency, not duration, of chloride channel opening. Flumazenil is an appropriate treatment for an overdose of benzodiazepine. The toxic dose of barbiturates varies. However, an oral dose of $1 \\mathrm { { g } }$ for most barbiturates can cause significant poisoning in an adult. Fatal cases of ingestion have occurred with doses ranging between 2.0 and $1 0 . 0 \\ \\mathrm { g }$ . The usual lethal blood level ranges from 40 to $8 0 ~ \\mu \\mathrm { g / m L }$ . While there is no antidote for barbiturate overdose, activated charcoal is beneficial in management. Urine alkalization has not proven beneficial in the management of a barbiturate overdose. Naloxone is used for opioid overdose.",
+        "concept": "Barbiturate Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 520,
+        "question": "A public health team identifies a cluster of lung cancer patients in a Michigan county. After detailed investigations, radon exposure is determined to be the cause of the outbreak. Which of the following is the most appropriate recommendation for the residents in the area with children?",
+        "choices": [
+            "a. Avoid radiation sites and minimize the use of appliances like microwaves inside the home.",
+            "b. Have the home tested for radon, and remediate if levels are between 2 to 4 pCi/L.",
+            "c. Have the home tested for radon, and remediate if levels are above 4 pCi/L.",
+            "d. Shower more frequently to remove excess radon from the skin"
+        ],
+        "answer": "b",
+        "explanation": "EPA recommends abatement or remediation when indoor radon air concentrations are ${ \\geq } 4 \\ \\mathrm { p C i / L }$ . However, if the homeowners spend a lot of time indoors and if there are children, especially, it is recommended that the home is remediated if levels are between 2 to 4 pCi/L. Currently, no federal, enforceable regulations control indoor radon levels—there are only guidelines set in place and general recommendations that clinicians should be aware of. The most important exposure route to radon is inhalation. Data is limited in terms of dermal exposure. For the U.S. general public, radon is second only to medical radiation as the principal ionizing-radiation exposure source.",
+        "concept": "Radon Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 555,
+        "question": "A medical command doctor for a hazardous materials (HAZMAT) team enters the site of a recent workplace gas/vapor exposure where multiple workers are still at the site and need to be extracted. It is determined that the scene contains less than $1 9 . 5 \\%$ oxygen, but the vapor/gas exposure has not yet been identified. According to OSHA guidelines, what is the required PPE for the team for this type of exposure?",
+        "choices": [
+            "a. Positive pressure full face-piece self-contained breathing apparatus (SCBA), encapsulating covering chemical protective suit, chemical-resistant outer gloves, chemical-resistant inner gloves, chemical-resistant boots with steel toe, disposable protective suit/gloves/boots.",
+            "b. Positive pressure full face-piece self-contained breathing apparatus (SCBA), chemical-resistant clothes with hood, chemical-resistant outer gloves, chemical-resistant inner gloves, and chemical-resistant boots with steel toe.",
+            "c. Air purifying respirator, chemical-resistant clothes with hood, chemicalresistant outer gloves, chemical-resistant inner gloves, chemical-resistant boots with steel toe.",
+            "d. Gloves, coveralls, chemical-resistant boots/shoes with steel toe, safety glasses, or chemical splash goggles."
+        ],
+        "answer": "b",
+        "explanation": "This would be for a level A exposure. Based on the description of $1 9 . 5 \\%$ oxygen and unknown vapor/gas this would require Level B PPE. This is the correct answer. Level B PPE is required for this exposure which has less than $1 9 . 5 \\%$ oxygen and unknown vapor/gas. This type of PPE describes Level C PPE which is appropriate in situations necessitating air-purifying respirators and when contaminants will not cause adverse harm through exposed skin. This type of PPE describes Level D PPE which may be utilized when no known hazard is present in the atmosphere and contact or inhalation with hazardous levels is precluded by usual work functions.",
+        "concept": "Personal Protective Equipment",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 577,
+        "question": "A 28-year-old man is brought to the hospital by his family for altered mental status. They report the patient has a history of depression with psychotic features and recent suicidal thoughts. He was found with an empty bottle of risperidone, which appears to have been filled less than a week prior. His vitals are notable for tachycardia, tachypnea, and a temperature of 40 C. On examination, he is altered and ill-appearing. The presence of which of the following features best distinguishes this disorder from serotonin syndrome?",
+        "choices": [
+            "a. Anhidrotic hyperthermia",
+            "b. Hyporeflexia",
+            "c. Rigidity",
+            "d. Hyperpnea"
+        ],
+        "answer": "c",
+        "explanation": "Neuroleptic malignant syndrome (NMS) is a syndrome of altered mental status, autonomic instability, hyperthermia, and \"lead pipe\" rigidity associated with the use of certain medications. NMS is most commonly secondary to dopaminergic antagonists but, more rarely, can occur due to withdrawal from dopaminergic medications. Haloperidol and fluphenazine, both first-generation neuroleptic agents, are most commonly associated with NMS. However, NMS can also occur with second-generation or \"atypical\" neuroleptic agents such as risperidone. Risk factors for the development of NMS include high doses of neuroleptic medications, recent or rapid escalation in dosing, a switch from one agent to another, and parenteral administration. The treatment of neuroleptic malignant syndrome is largely supportive and includes maintenance of euvolemia and normothermia as well as prevention of complications, which include deep venous thrombosis, rhabdomyolysis, renal failure, and cardiac dysrhythmias. In cases of severe muscle rigidity not improved with supportive measures, dantrolene and bromocriptine can be used. The distinguishing feature of neuroleptic malignant syndrome is the classic \"lead pipe\" rigidity. This can help distinguish NMS from other conditions that present with altered mental status, including sepsis, serotonin syndrome, sympathomimetic toxicity, anticholinergic syndrome, salicylate overdose, and thyrotoxicosis.",
+        "concept": "Neuroleptic Agent Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 579,
+        "question": "A 25-year-old man presents with severe eye irritation, throat burning, and difficulty breathing. He was working in a poorly ventilated area when a container of mercaptan leaked, releasing a strong and unpleasant odor. Symptoms started shortly after exposure. He has no significant history. Vital signs are blood pressure $1 3 0 / 8 0 \\mathrm { m m H g }$ , heart rate 100 bpm, respiratory rate 22 breaths/min, and oxygen saturation $9 6 \\%$ on room air. On physical examination, the patient is anxious and uncomfortable, with conjunctival injection and mild wheezing bilaterally. Laboratory tests reveal hemoglobin $1 3 . 5 \\ : \\mathrm { g / d L }$ , hematocrit $40 \\%$ , red blood cell count 4 million/ $\\mu \\mathrm { L }$ , mean corpuscular volume 90 fL, mean corpuscular hemoglobin 30 pg, and white blood cell count $7 { , } 0 0 0 / \\mu \\mathrm { L }$ . Arterial blood gas analysis shows pH 7.36, $\\mathrm { P a O } _ { 2 }$ 95 mm Hg,pPaCO2 $4 0 \\mathrm { m m H } \\mathrm { g }$ , bicarbonate 23 mEq/L, and oxygen saturation $9 8 \\%$ on room air. Which of the following is the most appropriate initial management?",
+        "choices": [
+            "a. Administer high-flow oxygen therapy via a non-rebreather mask.",
+            "b. Administer nebulized bronchodilators for symptom relief.",
+            "c. Perform immediate decontamination of the patient's skin and clothing.",
+            "d. Provide supportive care, including removal from the exposure source and   \nreassurance."
+        ],
+        "answer": "a",
+        "explanation": "In this scenario, the patient presents with severe eye irritation, throat burning, and difficulty breathing after exposure to a mercaptan leak in a poorly ventilated area. The most appropriate initial management approach for this patient is to administer high-flow oxygen therapy via a non-rebreather mask. This helps to alleviate symptoms, improve oxygenation, and provide respiratory support. There is no specific antidote or pharmacological treatment specifically approved for mercaptan toxicity. Therefore, the management of mercaptan toxicity primarily focuses on supportive care and symptomatic treatment. Nebulized bronchodilators can be considered for symptom relief, but high-flow oxygen therapy is the first-line intervention. Although decontamination of the patient's skin and clothing may be necessary, it is not the most immediate priority in this case. Providing supportive care, including removal from the exposure source and reassurance is important but should be accompanied by oxygen therapy to ensure adequate oxygenation.",
+        "concept": "Mercaptan Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 713,
+        "question": "A 35-year-old woman is brought to the emergency department after being exposed to an odorless gas while working at a chemical laboratory. On examination, the patient is vomiting and has excessive salivation, lacrimation, and miosis. The healthcare provider is suspecting exposure to V-series nerve agents. Which of the following metabolic abnormalities will most likely be seen in this patient?",
+        "choices": [
+            "a. Respiratory acidosis",
+            "b. Respiratory alkalosis",
+            "c. Metabolic acidosis",
+            "d. Metabolic alkalosis"
+        ],
+        "answer": "c",
+        "explanation": "Exposure to V-series nerve agents should be considered if there is a clinical history concerning exposure to nerve agents or symptoms of nerve agent exposure. Decontamination and treatment should begin as soon as possible. Laboratory tests for the presence of V-series agents in the body are not readily available and are not used to guide management. Patients may demonstrate lab abnormalities consistent with metabolic acidosis and the breakdown of striated muscle.",
+        "concept": "Toxicology, V-Series Nerve Agents",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 728,
+        "question": "A 17-year-old boy presents after he was found unconscious at home with an empty bottle of carbamazepine. His history is significant for bipolar disorder. On arrival, he is disoriented with double vision and nystagmus. His Glasgow coma score is 12. Above what serum level would ataxia and nystagmus be seen?",
+        "choices": [
+            "a. 2 mg/L",
+            "b. 8 mg/L",
+            "c. 12 mg/L",
+            "d. 20 mg/L"
+        ],
+        "answer": "b",
+        "explanation": "Carbamazepine toxicity can be divided into 3 levels, disorientation, and ataxia at levels of 11 to $1 5 \\mathrm { m g / L }$ , aggression and hallucinations with levels of 15 to $2 5 \\mathrm { m g / L }$ , and seizures and coma at levels above $2 5 \\mathrm { { m g / L } }$ . Symptoms of toxicity include double vision, dizziness, nystagmus, ataxia, nausea, and vomiting. At times, cardiac conduction abnormality could be seen as well. It has been reported that acute carbamazepine toxicity could be associated with the presence of spindle coma on EEG. Activated charcoal binds to carbamazepine and prevents its absorption from the gastrointestinal tract. It also enhances the elimination of carbamazepine by interrupting the enterohepatic circulation of the drug.",
+        "concept": "Carbamazepine Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 743,
+        "question": "A 65-year-old man with type 2 diabetes mellitus has recently been diagnosed with a prolactin-secreting pituitary microadenoma. The plasma level of prolactin is above normal. He shows symptoms of sexual dysfunction and gynecomastia. Which of the following is the best initial therapy for this patient?",
+        "choices": [
+            "a. Apomorphine",
+            "b. Bromocriptine",
+            "c. Cabergoline",
+            "d. Pergolide"
+        ],
+        "answer": "b",
+        "explanation": "A dopamine agonist is a first-line treatment for hyperprolactinemia due to pituitary tumors. Dopamine inhibits prolactin synthesis and secretion from the pituitary gland. Both cabergoline and bromocriptine have been approved for the treatment of hyperprolactinemia. Although cabergoline may be more productive with fewer adverse effects than bromocriptine, bromocriptine has been approved by the FDA for the treatment of type 2 diabetes.",
+        "concept": "Dopamine Agonists",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 763,
+        "question": "A 5-year-old female presents to the emergency department after ingesting 2 oral hypoglycemic tablets as witnessed by her older brother 4 hours ago at home. On examination, the patient is confused appearing, tremulous and diaphoretic. Her vitals is notable for tachycardia, at 135 beats/minute, blood pressure of 90/60, respirations 25/minute, SaO2 $9 8 \\%$ , and temperature of 37.4 C. The patient is placed on a cardiac monitor, pulse oximetry, and IV access using a 24 gauge catheter is established. No trauma is reported. A STAT point of care finger stick glucose is $4 0 \\mathrm { m g / d L }$ shortly after arrival. IV dextrose bolus and infusion is administered for 2 hours and a repeat serum glucose is $5 0 ~ \\mathrm { m g / d L }$ one hour after terminating dextrose. At this time, the patient is confused but protecting her airway. Which of the following is the next best step?",
+        "choices": [
+            "a. Somatostatin IV followed by dextrose IV",
+            "b. Dextrose IV only",
+            "c. Dextrose IV followed by octreotide",
+            "d. Oral glucose"
+        ],
+        "answer": "d",
+        "explanation": "This child is presenting with a severe and potentially life-threatening overdose with an oral hypoglycemic. Sulfonylureas are one of a few xenobiotics that can cause severe life-threatening toxicity with exposure to just one tablet in small children/infants. Sulfonylureas are a class of anti-diabetic medications used orally for the treatment of diabetes mellitus. When ingested alone or in combination with other oral hypoglycemics (e.g. metformin) or insulin, the risk for hypoglycemia increases. Sulfonylureas are especially concerning within the class of oral hypoglycemics due to the propensity to cause hypoglycemia when ingested alone which is less common with other oral hypoglycemics (e.g. metformin) which often become an issue only when combined with other glucose-lowering agents. Further, sulfonylureas are concerning due it's long half-life and duration of toxicity, delayed nature of toxicity, and paradoxical hypoglycemia after administration of sugar products (see below). With a suspected or confirmed sulfonylurea overdose, recognition and treatment of hypoglycemia is critical. Altered mentation, confusion, seizures, diaphoresis, agitation, anxiety, restlessness, lightheadedness, and hallucinations characterize symptoms of hypoglycemia for which one or all may be present. Treatment should first be aimed at raising serum glucose concentrations immediately with either oral glucose or intravenous dextrose if IV has been established. Glucagon can be administered intramuscularly if IV access has not been established or is delayed. Oral glucose is the preferred route to raise serum glucose levels, especially in sulfonylurea overdoses. This is due to the paradoxical nature of persistent hypoglycemia with dextrose administration in the sulfonylurea-toxic patient. Larger boluses of dextrose can cause further hypoglycemia by stimulating more sulfonylurea-induced insulin release in response to larger serum glucose levels. Oral administration of sugar can also cause this paradoxical effect but less frequently as compared to intravenous dextrose. Octreotide is used in cases of sulfonylurea-induced hypoglycemia based on its mechanism of action on islet pancreatic beta cells. Octreotide binds to the sulfonylurea receptor on the ATP-dependent potassium efflux channels. The result of octreotide binding to its receptor results in the closing and therefore termination of potassium ions effluxed to the extracellular space. This results in downstream deactivation of the secondary messenger cAMP and subsequently retarding the release of insulin granules into the bloodstream. Somatostatin can be used in cases of Sulfonylurea induced hypoglycemia; however, octreotide is more specific for its receptor. Glucagon can be used in the initial management of severe hypoglycemia where IV access has not been established for any reason. IV access should eventually be used so that IV dextrose can be used in cases where oral glucose is contraindicated (e.g. unable to protect the airway, aspiration risk). Finally, octreotide IV should be administered in cases of either delayed, rebound, or persistent hypoglycemia.",
+        "concept": "Deadly Single Dose Agents",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 769,
+        "question": "A 54-year-old man with a past medical history of alcoholic liver disease presents to the emergency department with complaints of abdominal pain, generalized myalgia, headache, and weakness. He works at a factory, smelting and refining lead. Laboratory findings reveal whole blood lead concentration $1 0 2 \\mathrm { m c g / d L }$ , AST 85 IU/L, ALT 22 IU/L, BUN 25 $\\mathrm { m g / d L }$ , creatinine $1 . 6 \\ : \\mathrm { m g / d L }$ . What is the most likely primary concern, if any, with starting combination chelation therapy in this patient?",
+        "choices": [
+            "a. Elevated blood urea nitrogen and creatinine levels",
+            "b. There are no concerns with starting combination chelation therapy",
+            "c. History of alcoholic liver disease and elevated liver enzymes",
+            "d. The whole blood lead concentration is below that which is recommended   \nfor chelation therapy"
+        ],
+        "answer": "c",
+        "explanation": "Dimercaprol is contraindicated in hepatic insufficiency. In animal studies by Cameron et al, rabbits and mice with hepatic damage treated with dimercaprol experienced toxic symptoms and some died. These results occurred with doses well below the lethal dose in healthy animals. Dimercaprol is not contraindicated with renal impairment. No adjustments are needed when starting therapy, but if acute kidney injury develops during treatment, discontinuation of dimercaprol is recommended. Dimercaprol is given before calcium disodium edetate, another chelating agent, to prevent redistribution of lead to the brain. Symptomatic lead poisoning, lead encephalopathy, and a whole blood lead concentration $= 1 0 0 \\mathrm { m c g / d L }$ in adults and $= 7 0 \\mathrm { m c g / d L }$ in children are indications for treatment with dimercaprol.",
+        "concept": "Dimercaprol",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 777,
+        "question": "A 1-month-old boy presents with lethargy and abdominal distention. He was delivered prematurely at 34 weeks gestation by a cesarian section. He is exclusively breastfed since birth. His mother's history is significant for taking chloramphenicol during the length of pregnancy. Physical examination demonstrates hypotension, tachycardia, ash-colored skin, and abdominal distention. Which of the following is the next best step in management?",
+        "choices": [
+            "a. IV normal saline",
+            "b. IV metronidazole",
+            "c. Charcoal hemoperfusion",
+            "d. Exchange transfusion"
+        ],
+        "answer": "a",
+        "explanation": "The presentation of a neonate with abdominal distention, cyanosis, and ashen-gray skin discoloration is classic for gray-baby syndrome secondary to either fetal or maternal chloramphenicol use. Gray-baby syndrome occurs because of decreased renal clearance and immature hepatic detoxification by uridine 5'-diphosphateglucuronosyltransferase. Gray-baby syndrome can result in permanent neurologic deficits or death secondary to chloramphenicol's displacement of unconjugated bilirubin from albumin, leading to kernicterus. Management of chloramphenicol toxicity centers primarily around supportive care. The general approach to the ashen-gray hemodynamically unstable neonate starts with aggressive resuscitation and an early call to the pediatric intensive care unit or extracorporeal life support team, as some of these patients may be ideal candidates. These patients should be hemodynamically stabilized, appropriately oxygenated and ventilated, and intubated early. Checking a core temperature is critical, as hypothermia is common in the gray neonate. Aggressive rewarming should be considered. Point-of-care glucose should also be checked, and hypoglycemia should be reversed if present.",
+        "concept": "Gray Baby Syndrome",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 780,
+        "question": "A 25-year-old man presents 20 minutes after ingesting 10 g of cadmium in a suicide attempt. His kidney function is normal. What is the most appropriate initial step in management?",
+        "choices": [
+            "a. Hemodialysis",
+            "b. Whole bowel irrigation",
+            "c. Succimer administration",
+            "d. Symptomatic treatment only"
+        ],
+        "answer": "c",
+        "explanation": "Cadmium is a heavy metal that causes direct harm to humans in several forms. Cadmium toxicity usually occurs after occupational, environmental, or hobby work exposure. DMPS (2,3 mercapto-1-propane sulfonate) or succimer [DMSA (2,3 dimercaptosuccinic acid)] is the most appropriate initial step in the management of this patient. Hemodialysis and hemoperfusion are not useful in the treatment of cadmium ingestion. In patients with severe renal damage, hemodialysis is useful in restoring kidney function.",
+        "concept": "Cadmium Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 784,
+        "question": "A 4-year-old boy presents to the pediatric emergency department unresponsive to tactile stimulation. He was found with depressed consciousness next to an open package of buprenorphine-naloxone. He was born full-term and he has no known medical conditions. He takes no medications and has no known drug or food allergies. His vital signs show blood pressure of $8 0 / 5 0 \\ \\mathrm { m m H g }$ , pulse of $9 0 / \\mathrm { m i n }$ , temperature of 35.9 C, oxygen saturation of $9 6 \\%$ on room air, and respiratory rate of $1 0 / \\mathrm { m i n }$ . Physical examination is significant for slow shallow breathing, miosis, hyporeflexia, and absence of bowel sounds. His blood glucose level is 90 mg/dl and a chest radiograph reveals clear lungs without effusion or infiltrate. What receptor agonism is helping to prevent mortality in this patient?",
+        "choices": [
+            "a. Kappa receptor",
+            "b. Delta receptor",
+            "c. Mu receptor",
+            "d. Nociception protein receptor"
+        ],
+        "answer": "d",
+        "explanation": "This patient is experiencing adverse effects from mu receptor activation including depressed consciousness, hypotension, hypothermia, bradypnea, hypoxia, miosis, hyporeflexia, and decreased bowel peristalsis. This constellation of signs and symptoms is commonly referred to as opioid toxicity. The primary risk of mortality associated with opioid toxicity is respiratory depression from mu receptor activation. This young child is experiencing signs of respiratory depression. Activation of the nociception protein receptor stimulates breathing. This is one mechanism that contributes to the ceiling effect regarding the degree of respiratory depression that buprenorphine can cause. Kappa receptors activation may reduce pruritus and delta receptor activation may be beneficial for the treatment of chronic pain and depression. Kappa and delta receptor activation have no significant effect on respiratory drive. Mu receptor activation will depress respiratory drive.",
+        "concept": "Buprenorphine Naloxone",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 831,
+        "question": "A 12-year-old girl is brought to the emergency department by her mother due to a chief complaint of acute onset altered mental status. The mother of the patient reports to the emergency department staff that her daughter mentioned something about “sniffing glue” for the first time. The patient appears ill and lethargic with incoherent speech and frequent coughing. Her vitals are blood pressure 94/64 mmHg, heart rate 135 bpm, temperature 98.9 F (37.2 C), and respiratory rate 26 breaths/min. Given the likely diagnosis, which of the following are expected laboratory value findings?",
+        "choices": [
+            "a. Potassium 3.4mmol/L; ABG: pH of 7.4, HCO3 24 mmol/L, and pCO2 40 mmHg",
+            "b. Potassium 4.9mmol/L; ABG: pH of 7.1, HCO3 8 mmol/L, and pCO2 20 mmHg",
+            "c. Potassium 2.0mmol/L; ABG: pH of 7.5, HCO3 30 mmol/L, and pCO2 46 mmHg",
+            "d. Potassium 2.5mmol/L; ABG: pH of 7.2, HCO3 12 mmol/L, and pCO2 50 mmHg",
+            "e. 4mmol/L; ABG: pH of 7.4, HCO3 24 mmol/L, and pCO2 40 mmHg"
+        ],
+        "answer": "a",
+        "explanation": "While hypokalemic metabolic acidosis is a finding in toluene toxicity, it is unlikely that this adolescent patient would have profound laboratory changes after acute exposure hence the unremarkable laboratory values. Toluene is metabolized to hippuric acid by cytochrome p-450 enzymes which spontaneously deprotonates in plasma to hippurate which then ionically binds with ammonium, sodium, or potassium cations and is excreted in urine. Thus, chronic toxicity may be associated with hypokalemia resulting in weakness, spasticity, cardiac arrhythmias, and other complications such as rhabdomyolysis. A physical examination should involve all systems as no set of findings exists that are specific to toluene toxicity nor dichotomize acute versus chronic exposure. There has been a progression of stages after acute exposure to toluene described by multiple studies: euphoria followed by excitability, disinhibition, and impulsive behaviors. Continued monitoring with serial labs as well as telemetry via admission to the hospital would be the most appropriate disposition for this patient. While there is no evidence-based pharmacologic agent that can be administered to specifically treat toluene toxicity, symptomatic management and intravenous fluids should be considered.",
+        "concept": "Toluene Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 854,
+        "question": "A 28-year-old woman presents to her OBGYN for a 32- week gestational visit. Her history is significant for multiple episodes of infective endocarditis requiring prolonged courses of intravenous antibiotics. Her pregnancy course is complicated by excessive gestational weight gain. Vital signs are heart rate 96 bpm, blood pressure $1 2 8 / 7 4 \\mathrm { m m H g }$ , respiratory rate 16 breaths/min, and temperature $9 8 . 9 ^ { \\circ }$ F $( 3 7 . 1 ^ { \\circ } \\mathrm { C } )$ . Which of the following represents the most common industrial use of the toxicological agent responsible for excessive gestational weight gain?",
+        "choices": [
+            "a. Acting as strong adhesives to prevent the degradation of rubbers and   \nmetals",
+            "b. Imparting strength and flexibility by acting as plasticizing agents used in   \nthe industrial manufacturing of plastic materials",
+            "c. Acting as protective coatings for plastics to prevent PVC from leaching out   \nof products",
+            "d. Use as a preservative to extend the shelf life of personal care products"
+        ],
+        "answer": "a",
+        "explanation": "High molecular weight phthalates are fat-soluble plasticizers used to increase the flexibility and durability of plastic polymers. Common industrially manufactured plastic products containing phthalates include intravenous medical tubing, wires, cable, flooring, and adhesive films. Phthalates are not covalently bound to plastics and easily leach out of polyvinyl chloride-based plastic products. As opposed to high molecular weight phthalates, low molecular weigh phthalates are used in personal care products, paints, and inks.",
+        "concept": "Phthalates Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 862,
+        "question": "An otherwise healthy 45-year-old man with no prior medical history is being evaluated for profuse bleeding shortly after a traumatic accident. He does not take any medications and has no known drug allergies. A physical exam is significant for bleeding from a laceration in his upper torso. The patient was given dextran for shock and plasma volume expansion. Lab values are significant for a bleeding time of 20 minutes. Which of the following mechanisms is most likely responsible for the patient's complication?",
+        "choices": [
+            "a. Activation of plasminogen",
+            "b. Platelet destruction",
+            "c. Factor X consumption",
+            "d. COX-1 inhibition"
+        ],
+        "answer": "a",
+        "explanation": "Dextran activates plasminogen to plasmin and prolongs bleeding time. Dextran also reduces the von Willebrand factor to decrease the function of platelets. Hematologic effects of dextran toxicity may interfere with platelet function, so dextran should be used carefully in thrombocytopenia patients because of possible prolongation of bleeding time. Patients should also be monitored for signs of bleeding and increased blood loss postoperatively because dextran can act as an antithrombotic. Determining hematocrit after administration of dextran is important in order to avoid lowering its value below $30 \\%$ . Large volumes of dextran can also lead to a lower concentration of plasma protein levels.",
+        "concept": "Dextran",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 897,
+        "question": "A 1-month-old baby boy is found to suffer from a neurological disorder characterized by an exaggerated startle reflex to mild auditory, tactile, and visual stimuli. This is due to a mutation in a channel found in which of the following locations?",
+        "choices": [
+            "a. Cortex",
+            "b. Muscle fibers",
+            "c. Brain stem",
+            "d. Peripheral nerves"
+        ],
+        "answer": "b",
+        "explanation": "Glycine is an inhibitory neurotransmitter mostly found in the spinal cord and brain stem. Activation of glycine receptors causes the entry of chloride into the neurons, causing an inhibitory postsynaptic potential (IPSP). Glycine receptors control motor rhythm generation and coordinate spinal reflex responses. Glycine receptor mutations cause hereditary hyperekplexia (HPX), also known as ‘stiff baby syndrome.’ GABA is predominantly used in the brain and is associated with various epileptic syndromes.",
+        "concept": "Biochemistry, Chloride Channels",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 902,
+        "question": "A 36-year-old male was brought to the emergency department (ED) from a dermatology office. He consented to numerous subcutaneous injections of an untested dermal filler in exchange for a cosmetic procedure at a discounted price. The physician called 911 because the patient became somnolent about 3 hours into the process. In the ED, initial laboratory tests revealed metabolic acidosis and electrolyte imbalances. As his condition deteriorated, he required mechanical ventilation and intermittent hemodialysis. Urine studies revealed the presence of an organic acid. Although the electrolyte imbalances and acidosis improved, the excretion of the urine metabolite did not significantly change. Which of the following statements regarding the toxin and hemodialysis is true?",
+        "choices": [
+            "a. Toxicity was likely secondary due to an additive in the dermal filler, which had an extensive volume of distribution and therefore was not readily   \nremoved by dialysis.",
+            "b. The patient most likely suffered from severe anaphylaxis, and dialysis would not have helped remove the associated cytokines.",
+            "c. The substance causing the toxic syndrome most likely has low protein binding capacity.",
+            "d. A low flow rate was most likely used with the dialysis apparatus, resulting in decreased clearance of toxic metabolites."
+        ],
+        "answer": "b",
+        "explanation": "This patient likely suffered from glycol ether (GE) toxicity. Due to their solvent properties, GEs are used in dermal fillers. Inadvertent injection in a superficial vessel can induce severe toxicity. Severity also depends on the type of glycol ether and the amount administered. Acute toxicity produces neurological deficits such as drowsiness and weakness. Metabolism by alcohol dehydrogenase (ADH) produces organic acid metabolites excreted in the urine. Drugs with high solubility, such as GEs, result in a large volume of distribution and therefore are poorly removed by hemodialysis. The removal of a drug by hemodialysis is contingent on molecular weight, the volume of distribution, protein binding capacity, dialysis flow rate, and plasma clearance. Hemodialysis is still paramount in acute management to ameliorate fatal electrolyte imbalances (such as hyperkalemia) and severe acidosis. Supportive care employing intubation and mechanical ventilation is also essential should the patient lose the ability to protect the airway, as in this case. Anaphylaxis to an untested drug is a feasible differential; however, the clinical scenario and physical exam are incongruent with a typical anaphylactic reaction. There was no mention of cutaneous findings (hives, angioedema), gastrointestinal complaints, or cardiovascular compromise (hypotension). This patient’s somnolence likely resulted from neurotoxicity from glycol ether (GE) toxicity. Although neurological symptoms are part of anaphylaxis, they often manifest as altered syncope dizziness. Finally, hemodialysis is not the treatment for anaphylaxis, assuming no concurrent metabolic toxicity exists. Protein binding is an essential component regarding the kinetics of hemodialysis. Specifically, a high protein binding capacity results in lower free drug concentrations. Therefore toxins that exhibit high protein binding are poorly removed by dialysis. In this case, if the toxin in question had low protein binding capacity, it would readily be removed by dialysis, and therefore, its urinary metabolites would decrease in concentration. Flow rate is also essential in drug metabolism from an intrinsic biological perspective and artificially by hemodialysis. A low flow state to the liver and kidneys results in poor metabolism and excretion of drugs and metabolites. Similarly, a low flow state can also result in decreased removal of a toxin by hemodialysis. However, if inadequate dialysis flow were the culprit for the delayed metabolism of the toxin, the improvement in the acidosis and electrolyte imbalances would have also been delayed. Additionally, there was no explicit mention of the type of dialysis flow rate used.",
+        "concept": "Glycol Ether Toxicology",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 917,
+        "question": "A patient presents after acute, single-dose ingestion of an unknown amount of aspirin 35 minutes before arrival. The patient is alert, not vomiting, and has no respiratory difficulty. In addition to supportive care, alkalinization therapy, and considering dialysis, the healthcare provider considers enhanced elimination. Which of the following is an appropriate dosing regimen of activated charcoal when the ingested amount is unknown?",
+        "choices": [
+            "a. 15 g administered to a 6-month-old male",
+            "b. 250 g administered to a $5 0 \\mathrm { k g }$ teenager",
+            "c. 25 g administered to an adult male",
+            "d. $5 0 ~ \\mathrm { g }$ administered to a $1 5 0 \\mathrm { k g }$ male"
+        ],
+        "answer": "a",
+        "explanation": "Classic dosing for activated charcoal (AC) when the amount of xenobiotic is known is in a 10:1 ratio. This effective dosing strategy may be challenging to obtain in large ingestions of xenobiotics such as aspirin ingestions. When the dose of an ingested substance is unknown, dosing empirically of AC can be done with the following guidelines. Adults take 25 to 100 g, infants younger than one year take 10 to ${ 2 5 } \\ \\mathrm { g } .$ , children 2 to 12 years receive 25 to ${ \\mathsf { 5 0 } } \\mathbf { g } .$ , and children older than 12 years follow adult dosing. Alternatively, AC can be administered at $1 \\mathrm { g / k g }$ of the patient's body weight. In larger patients such as the $1 5 0 \\mathrm { k g }$ patient above, standard empiric doses such as $5 0 ~ \\mathrm { g }$ may be insufficient. Very large doses such as $2 5 0 ~ \\mathrm { g }$ of activated charcoal in a single dose may be too much volume and can promote emesis.",
+        "concept": "Activated Charcoal",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 976,
+        "question": "A 17-year-old male presents to the emergency department for nausea and vomiting after recently emigrating from Nigeria. Upon physical exam, he has difficulty with coordinating voluntary movements and had a wide-based and staggering gait. Which of the following Lepidoptera species is responsible for this syndrome?",
+        "choices": [
+            "a. Premolis semirufa",
+            "b. Lophocampa caryae",
+            "c. Anapha venata",
+            "d. Lonomia obliqua"
+        ],
+        "answer": "b",
+        "explanation": "This patient presents with seasonal ataxia that is characterized by acute cerebellar ataxia (unsteady gait), dysarthria, nausea, and vomiting. It has been implicated in epidemics in western Nigeria during the 1950s, caused by consuming the African silkworm (Anapha venata) for protein. The larvae of the Anapha venata contain heat-resistant thiaminases and have been associated with thiamine deficiency in people, causing the clinical syndrome of seasonal ataxia. Coinciding with the rainy season of July through October in Nigeria, the larvae are abundantly found in local markets and frequently consumed with high carbohydrate-based foods containing thiamine-binding cyanogenetic glycosides. Frequent exposures to the Preolis semirufa caterpillars of Brazil are associated with a significant joint disease called pararamose. The hickory tussock moth (Lophocampa caryae) located in North America produces a histamine reaction upon human contact. Lonomia obliqua envenomation is responsible for a severe hemorrhagic disease characterized by consumptive coagulopathy and fibrinolysis.",
+        "concept": "Caterpillar and Moth Bites",
+        "resource": "Toxicology Board and Certification Review"
+    },
+    {
+        "id": 983,
+        "question": "A 17-year-old boy presents with acute onset of shortness of breath after handling his pet tarantula approximately 30 minutes before arrival. He complains of associated sore throat and has mild stridor on examination. He has no fever or rash. What is the next most appropriate step in management?",
+        "choices": [
+            "a. Rapid sequence intubation by the most experienced provider to prevent airway compromise.",
+            "b. Diphenhydramine, methylprednisolone, and intramuscular epinephrine",
+            "c. Emergent otolaryngology consultation for laryngoscopy.",
+            "d. A portable chest x-ray to evaluate for a possible foreign body."
+        ],
+        "answer": "a",
+        "explanation": "While tarantula spiders have venom, most injuries caused by tarantulas result from urticating hairs on the spider's abdomen and are released when the spider feels threatened. These hairs can become suspended in the air and subsequently inhaled. While a rare complication, this can lead to airway edema and airway compromise. Given this patient's rapid onset of symptoms, rapidly securing his airway by the most experienced provider would be prudent. Any patient presenting with stridor should prompt consideration for intubation. Intubation should be performed by the most experienced provider in intubation, given the potential for a complicated airway. Nebulized racemic epinephrine may be used as an adjunct but should not delay intubation. While diphenhydramine, methylprednisolone, intramuscular epinephrine, and otolaryngology consultation would all be prudent in this patient, they should not supersede protecting the patient's airway.",
+        "concept": "Tarantula Spider Toxicity",
+        "resource": "Toxicology Board and Certification Review"
+    }
+]
