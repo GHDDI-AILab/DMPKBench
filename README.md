@@ -13,25 +13,30 @@ The benchmark emphasizes multi-disciplinary reasoning, multi-step quantitative a
 DMPKBench covers five expert-level competencies essential to DMPK practitioners:
 
 1. DMPK experimental design and troubleshooting
+
 Benchmark with expert-level exam questions and literature-derived CoT problems[2] on experiment planning, hypothesis formulation, and root-cause analysis.
 
 2. Interpretation of experimental results
+   
 Benchmark needs analysis of DMPK parameter tables and PK curves then identification of anomalous signals and mechanistic reasoning.
 
 3. ADMET multi-parameter optimization (MPO)
+   
 Benchmark covering absorption, distribution, metabolism, excretion, and toxicity (ADMET) assessment for drug candidates or chemicals, supported by experimental evidence from AI KongMing[3].
 
 4. Pharmacokinetic (PK) modeling and simulation
+   
 Benchmark evaluating capabilities in multi-step quantitative reasoning, model construction, parameter derivation, and numerical calculation.
 
 5. Preclinical-to-clinical PK translation to human body
+    
 Benchmark requiring integrated reasoning across species and data modalities for tasks like in vitro-in vivo extrapolation (IVIVE), first-in-human (FIH) dose prediction, and human drug–drug interaction (DDI) inference.
 
 ## Data Composition
 
 ### Public Benchmark Set
 
-We have released the benchmark to the public for academic use only. As shown in the table, the benchmark covers five dimensions, and comprises a large-scale knowledge base of more than 120,000 question–answer pairs across multiple modalities, including compounds SMILES stuctures, multi-step quantitative formula calculation, real-world DMPK data tables and PK curves. All data were standardized into an LLM-compatible JSONL format, with multi-modal inputs (tables, figures, PK curves) stored in Markdown for enhanced accessibility. Rigorous quality control was ensured through multi-round expert validation, formula verification, and inter-rater agreement checks. Due to licensing constraints, the ADMET MPO subset is released with questions and options without answers. Your own testing accuracy can be provided upon request.
+We have released the benchmark to the public for academic use only. As shown in the table, the benchmark covers five dimensions, and comprises a large-scale knowledge base of more than 120,000 question–answer pairs across multiple modalities, including compounds SMILES stuctures, multi-step quantitative formula calculation, real-world DMPK data tables and PK curves. All data were standardized into an LLM-compatible JSONL format, with multi-modal inputs (tables, figures, PK curves) stored in Markdown for enhanced accessibility. Rigorous quality control was ensured through multi-round expert validation, formula verification, and inter-rater agreement checks. Due to licensing constraints, the ADMET MPO subset is released with questions and options without answers. Feedback of your own testing accuracy can be provided upon request.
 
 | Domain              | Resource         | MCQ     | Quality             |
 |---------------------|------------------|---------|---------------------|
@@ -55,4 +60,4 @@ To ensure reproducibility and reduce prompt-related variability, relevant valida
 
 [2] Jie Li, Baiming Chen, Renhe Liu, Zhiyang Zou, Jinjiang Guo. DrugBench: A Data-Mining Pipeline for Generating CoT-driven LLM Benchmark in Drug Discovery.
 
-[3] AI KongMing (http://datascience.ghddi.org)
+[3] AI KongMing (https://datascience.ghddi.org)
